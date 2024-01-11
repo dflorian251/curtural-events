@@ -1,0 +1,147 @@
+*,::before,::after{
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #696973;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+    line-height: 1.42857143;
+    color: #696973;
+    font-weight: 400;
+    text-align: left;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    margin: 0 14rem;
+}
+
+.post-body {
+    display: flex;
+}
+
+.post-content {
+    flex: 1 1 0;
+    margin-right: 3.5rem;
+}
+
+.post-title {
+    font-size: 3rem;
+    font-weight: 300;
+    letter-spacing: -0.15rem;
+    line-height: 3.3rem;
+    color: #000;
+    margin-bottom: 0;
+    display: block;
+}
+
+.event-location {
+    color: #336666;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.9rem;
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    width: fit-content;
+}
+
+.post-short-desc {
+    font-size: 1rem;
+    color: #000;
+    line-height: 2.2rem;
+    font-weight: 600;
+}
+
+.post-long-desc {
+    font-size: 1rem;
+    line-height: 1.9rem;
+    margin-bottom: 1.8rem;
+}
+
+.post-image {
+    width: 710px;
+    height: 399.85;
+}
+
+.post-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.event-info {
+    padding: 0;
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.event-info-details {
+    display: flex;
+    gap: 2rem;
+}
+
+.event-info-details img {
+    display: block;
+    max-height: auto;
+    max-width: 3rem;
+    flex: 1 1 0;
+}
+
+.event-info-details div {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+div dt {
+    font-weight: 600;
+    color: #000;
+}
+
+div dd {
+    margin-left: 0;
+}
+
+.event-info-map {
+    border: #d3d3d3 solid 1px;
+    display: flex;
+    flex-direction: column;
+}
+
+.location-details {
+    padding: 1rem 1rem 0 1rem;
+}
+
+.location-details p {
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: #336666;
+    margin: 0 0 1rem;
+}
+
+.location-details span {
+    color: #000;
+    font-weight: 600;
+}
+
+button {
+    flex: auto;
+    width: fit-content;
+}
+
+
+
