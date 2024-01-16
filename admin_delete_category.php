@@ -1,17 +1,6 @@
 <?php
 // Connect to your MySQL database (replace these values with your actual database credentials)
-$hostname = "localhost";
-$username = "root";
-$password = "";
-$db = "curtural_events";
-
-$conn = mysqli_connect($hostname, $username, $password, $db); 
-
-if (!$conn) { 
-    die("Connection failed: " . mysqli_connect_error()); 
-} 
-
-$conn = new PDO("mysql:host=$hostname;dbname=$db", $username, $password); 
+require 'conn.php';
 
 ?>
 <!DOCTYPE html>

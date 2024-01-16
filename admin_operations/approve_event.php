@@ -1,42 +1,26 @@
 <?php
-//sync date
+// sync date
 date_default_timezone_set('Europe/Athens');
-// Connect to your MySQL database (replace these values with your actual database credentials)
-$hostname = "localhost";
-$username = "root";
-$password = "";
-$db = "curtural_events";
-
-$conn = mysqli_connect($hostname, $username, $password, $db); 
-
-if (!$conn) { 
-    die("Connection failed: " . mysqli_connect_error()); 
-} 
-
-$conn = new PDO("mysql:host=$hostname;dbname=$db", $username, $password); 
-
+// Connect to your MySQL database using PDO (replace these values with your actual database credentials)
+require "../conn.php";
 
 try {
     $conn = new PDO("mysql:host=$hostname;dbname=$db", $username, $password);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $eventId = $_POST['event_id'];
     
         try {
+            // Count the number of rows in the events table
             $query = "SELECT COUNT(id) FROM events ";
-            $stmt = $conn->prepare($query); 
-            // EXECUTING THE QUERY 
-            $stmt->execute(); 
-            $r = $stmt->setFetchMode(PDO::FETCH_ASSOC); 
-            // FETCHING DATA FROM DATABASE 
-            $result = $stmt->fetchAll();
-            foreach ($result as $row){
-                $count_events_id = $row['COUNT(id)'];
-            }
+            $stmt = $conn->prepare($query);
+            $stmt->execute();
+            $count_events_id = $stmt->fetchColumn();
     
-            $query = $conn->prepare("UPDATE `events` SET `approved`= 1 WHERE events.id = $eventId");
-            
-    
+            // Update the event with the specified ID
+            $query = $conn->prepare("UPDATE `events` SET `approved`= 1 WHERE events.id = :eventId");
+            $query->bindParam(':eventId', $eventId);
             $query->execute();
         } catch(PDOException $e) {
             echo $e->getMessage();
@@ -45,12 +29,12 @@ try {
 }  catch (PDOException $e) {
     echo "Connection failed: " . $e->getMessage();
 }
+
 // Handle form submission
- 
-    echo "Event approved successfully!";
+echo "Event approved successfully!";
 ?>
-    <br>
-    <a href="../admin.html">Main page</a>
+<br>
+<a href="../admin.html">Main page</a>
 <?php 
 $conn = null;
 ?>

@@ -8,10 +8,7 @@
             //sync date
             date_default_timezone_set('Europe/Athens');
 
-            $hostname = "localhost";
-            $username = "root";
-            $password = "";
-            $db = "curtural_events";
+            require 'conn.php' ;
 
             if (isset($_GET['id'])) {
                 $event_id = $_GET['id'];

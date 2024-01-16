@@ -1,16 +1,7 @@
 <?php
 // Connect to your MySQL database (replace these values with your actual database credentials)
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "curtural_events";
+require "conn.php";
 
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
 ?>
 
 <!DOCTYPE html>
@@ -30,7 +21,7 @@ if ($conn->connect_error) {
     </form>
 <?php
     // Close the database connection
-    mysqli_close($conn);
+    $conn = null;
 ?>
 </body>
 </html>

@@ -1,16 +1,5 @@
 <?php
-// Connect to your MySQL database (replace these values with your actual database credentials)
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "curtural_events";
-
-$conn = new mysqli($servername, $username, $password, $dbname);
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
+require 'conn.php';
 ?>
 
 <!DOCTYPE html>
@@ -67,9 +56,13 @@ if ($conn->connect_error) {
         (id - title)
         <select name="organizer_id" id="organizer" required>
         <?php
-            // Fetch existing organizer IDs from the database
             $query = "SELECT * FROM organizers";
-            $result = mysqli_query($conn, $query);
+            $stmt = $conn->prepare($query); 
+            // EXECUTING THE QUERY 
+            $stmt->execute(); 
+            $r = $stmt->setFetchMode(PDO::FETCH_ASSOC); 
+            // FETCHING DATA FROM DATABASE 
+            $result = $stmt->fetchAll();
             // Populate the dropdown with organizer IDs
             foreach ($result as $row){
                 echo "<option value=\"{$row['id']}\">{$row['id']} - {$row['title']}</option>";
@@ -82,9 +75,15 @@ if ($conn->connect_error) {
         (id - name)
         <select name="category_id" id="category" required>
         <?php
+            echo 'Ola pane kala';
             // Fetch existing organizer IDs from the database
             $query = "SELECT * FROM categories";
-            $result = mysqli_query($conn, $query);
+            $stmt = $conn->prepare($query); 
+            // EXECUTING THE QUERY 
+            $stmt->execute(); 
+            $r = $stmt->setFetchMode(PDO::FETCH_ASSOC); 
+            // FETCHING DATA FROM DATABASE 
+            $result = $stmt->fetchAll();
             // Populate the dropdown with organizer IDs
             foreach ($result as $row){
                 echo "<option value=\"{$row['id']}\">{$row['id']} - {$row['name']}</option>";
@@ -101,7 +100,7 @@ if ($conn->connect_error) {
 
 <?php
     // Close the database connection
-    mysqli_close($conn);
+    $conn = null;
 ?>
 </body>
 </html>

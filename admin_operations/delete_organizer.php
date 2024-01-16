@@ -1,33 +1,24 @@
 <?php 
-// Connect to your MySQL database (replace these values with your actual database credentials)
-$hostname = "localhost";
-$username = "root";
-$password = "";
-$db = "curtural_events";
-
-$conn = mysqli_connect($hostname, $username, $password, $db); 
-
-if (!$conn) { 
-    die("Connection failed: " . mysqli_connect_error()); 
-} 
-
-$conn = new PDO("mysql:host=$hostname;dbname=$db", $username, $password); 
+// Connect to your MySQL database using PDO (replace these values with your actual database credentials)
+require '../conn.php';
 
 try {
-    $conn = new PDO("mysql:host=$hostname;dbname=$db", $username, $password);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $idToDelete = $_REQUEST['organizer_id'];
+
         try {
-            $query = "DELETE FROM organizers WHERE `organizers`.`id` = $idToDelete";
-            $stmt = $conn->prepare($query); 
-            // EXECUTING THE QUERY 
-            $stmt->execute(); 
+            // Delete the organizer with the specified ID
+            $query = $conn->prepare("DELETE FROM organizers WHERE `organizers`.`id` = :idToDelete");
+            $query->bindParam(':idToDelete', $idToDelete);
+            $query->execute();
         } catch(PDOException $e) {
             echo $e->getMessage();
         }
-    } 
-    echo "Organizer deleted successfully!";
+
+        echo "Organizer deleted successfully!";
+    }
     ?>
     <br>
     <a href="../admin.html">Main page</a>
@@ -35,5 +26,4 @@ try {
 } catch (PDOException $e) {
     echo "Connection failed: " . $e->getMessage();
 }
-
 ?>
