@@ -33,6 +33,7 @@ try {
             $query->bindParam(':contactSurname', $contact_surname);
             $query->bindParam(':email', $email);
             $query->bindParam(':phone', $phone);
+            $query->execute();
         } catch (PDOException $e) {
             echo $e->getMessage();
         }

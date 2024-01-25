@@ -17,15 +17,11 @@ try {
             $stmt = $conn->prepare($query); 
             // EXECUTING THE QUERY 
             $stmt->execute(); 
-            $r = $stmt->setFetchMode(PDO::FETCH_ASSOC); 
-            // FETCHING DATA FROM DATABASE 
-            $result = $stmt->fetchAll();
-            foreach ($result as $row){
-                $count_categories_id = $row['COUNT(id)'];
-            }
+            $count_categories_id = $stmt->fetchColumn();
+            $count_categories_id++;
     
             $query = $conn->prepare("INSERT INTO `categories`(`id`, `name`) VALUES (:id,:name)");
-            $query->bindParam(':id', $count_categories_id + 1);
+            $query->bindParam(':id', $count_categories_id);
             $query->bindParam(':name', $name);
             $query->execute();
         } catch (PDOException $e) {
