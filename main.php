@@ -21,23 +21,24 @@ $result = $stmt->fetchAll();
     
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     
-        <link rel="stylesheet" media="all" href="barcelona/core.css">
-        <link rel="stylesheet" media="all" href="barcelona/css_OIbdenO1m2T6Gl8g0oFZmK7R3OTEWlUSxrnlyc4gTLM.css">
-        <link rel="stylesheet" media="all" href="barcelona/bcn-avisos.css">
+        <!-- <link rel="stylesheet" media="all" href="barcelona/core.css"> -->
+        <!-- <link rel="stylesheet" media="all" href="barcelona/css_OIbdenO1m2T6Gl8g0oFZmK7R3OTEWlUSxrnlyc4gTLM.css"> -->
         <link rel="stylesheet" media="all" href="barcelona/css_rFRysy6MbVSEpojtuKXhCIczox98m6-B1zLbaxABV_E.css">
         <link rel="stylesheet" media="all" href="barcelona/bootstrap.min.css" crossorigin="anonymous">
         <link rel="stylesheet" media="all" href="barcelona/css_F4e7z303Ny2ifV3z3tSupMhjmCvWXEmfg1ViqTzA3ZA.css">
-        <link rel="stylesheet" media="all" href="barcelona/css.css">
-        <link rel="stylesheet" media="all" href="barcelona/menu.css">
-        <link rel="stylesheet" media="all" href="barcelona/bcn-icon.css">
-        <link rel="stylesheet" media="all" href="barcelona/css_-WFyFrRhz7gOEOtU4cPaRSXptKD8eZiQbGzfRfjoDl4.css">
+        <link rel="stylesheet" media="all" href="barcelona/css.css"> <!-- fonts -->
+        <!-- <link rel="stylesheet" media="all" href="barcelona/menu.css"> -->
+        <!-- <link rel="stylesheet" media="all" href="barcelona/bcn-icon.css"> -->
+        <!-- <link rel="stylesheet" media="all" href="barcelona/css_-WFyFrRhz7gOEOtU4cPaRSXptKD8eZiQbGzfRfjoDl4.css"> -->
 
         <link rel="stylesheet" media="all" href="style.css">
         
-        <script type="text/javascript" charset="UTF-8" async="" src="barcelona/state.js"></script><script type="text/javascript" charset="UTF-8" src="barcelona/configuration.js"></script><script type="text/javascript" src="barcelona/uc.js" id="Cookiebot" data-blockingmode="auto" data-culture="EN" data-cbid="be63ba2d-fd22-4804-8cc6-1c81f5fbadba"></script><script type="text/javascript" src="barcelona/script.pageview-props.file-downloads.outbound-links.js" event-idioma="en" event-idioma-html="en" event-amfitrio="www.barcelona.cat" event-resolucio-pantalla="1536x864" data-domain="agregat,bcn0657"></script><script type="text/javascript" src="barcelona/container_beOBY9ep.js"></script><script src="barcelona/js_ATElS-Ob_uD4LN6E-AoQcYi-zSclZXy2nZzMAB0ipf8.js"></script>
-        <script src="barcelona/bcn-avisos.js"></script>
-        <script src="barcelona/core.js"></script>
-        <script src="barcelona/configs.php" async="" defer="defer"></script>
+        <!-- <script type="text/javascript" src="barcelona/uc.js" id="Cookiebot" data-blockingmode="auto" data-culture="EN" data-cbid="be63ba2d-fd22-4804-8cc6-1c81f5fbadba"></script> -->
+        <!-- <script type="text/javascript" src="barcelona/script.pageview-props.file-downloads.outbound-links.js" event-idioma="en" event-idioma-html="en" event-amfitrio="www.barcelona.cat" event-resolucio-pantalla="1536x864" data-domain="agregat,bcn0657"></script> -->
+        <!-- <script src="barcelona/js_ATElS-Ob_uD4LN6E-AoQcYi-zSclZXy2nZzMAB0ipf8.js"></script> -->
+        <!-- <script src="barcelona/bcn-avisos.js"></script> -->
+        <!-- <script src="barcelona/core.js"></script> -->
+        <!-- <script src="barcelona/configs.php" async="" defer="defer"></script> -->
     </head>
     
     <body>
