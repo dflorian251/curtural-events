@@ -109,10 +109,3 @@ section {
 .curtural-events-portal .curtural-events .curtural-event article:hover .curtural-event-info{
 	background-color:#70b8af;
 }
-
-.top {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-end;
-	flex: 1;
-}
