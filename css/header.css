@@ -1,0 +1,31 @@
+.header {
+	margin: 0;
+    padding: 0 50px 0 50px;
+	border: none;
+    display: flex;
+    align-items: center;
+}
+
+.header ul {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.header .logo {
+    font-size: 1.3rem;
+}
+
+ul {
+    text-decoration: none;
+}
+
+#languageSelector {
+    border: none;
+    background-color: transparent;
+}
+
+a {
+    color: black;
+}

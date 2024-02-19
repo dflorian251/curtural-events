@@ -1,5 +1,5 @@
 /**************** CSS RESET ***********************/
-.bcn-avis * {
+.cfu-avis * {
     margin: 0;
     padding: 0;
     border: 0;
@@ -11,17 +11,17 @@
 
 /**************** CSS RESET ***********************/
 
-.bcn-avisos {
+.cfu-avisos {
 	text-decoration: none;
     display: block;
     clear: both;
 }
-.bcn-avisos:hover {
+.cfu-avisos:hover {
 	text-decoration: none;
 }
 
 /******************* GRID IF NO BOOTSTRAP *******************/
-.bcn-avisos .bcn-avisos-grid {
+.cfu-avisos .cfu-avisos-grid {
     width: 1080px;
     margin: 0 auto;
     height: auto;
@@ -30,68 +30,68 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .bcn-avisos .bcn-avisos-grid {
+    .cfu-avisos .cfu-avisos-grid {
         width: 906px;
     }
 }
 
 @media screen and (max-width: 1023px) and (min-width: 768px) {
-    .bcn-avisos .bcn-avisos-grid {
+    .cfu-avisos .cfu-avisos-grid {
         width: 90.1%;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .bcn-avisos .bcn-avisos-grid {
+    .cfu-avisos .cfu-avisos-grid {
         width: 93.75%;
     }
 }
 /******************* GRID IF NO BOOTSTRAP *******************/
 
 
-#bcn-avisos-mesura {
+#cfu-avisos-mesura {
 	visibility: hidden;
 	display: none;
 }
 
-.bcn-avisos p {
+.cfu-avisos p {
 	font-size: 18px;
 	line-height: 20px;
 }
 
-.bcn-avisos sub {
+.cfu-avisos sub {
     bottom: 0;
     font-size: 60%;
 }
 
-.bcn-avisos .bcn-avisos-titol {
+.cfu-avisos .cfu-avisos-titol {
 	background-color: white;
 }
 
-.bcn-avisos.negatiu  {
+.cfu-avisos.negatiu  {
 	background-color: #4869ad;
 }
 
-.bcn-avisos.negatiu .bcn-avisos-titol {
+.cfu-avisos.negatiu .cfu-avisos-titol {
 	background-color: #4869ad;
 }
 
-.bcn-avisos.negatiu .bcn-avisos-titol p,
-.bcn-avisos.negatiu .bcn-avisos-text p,
-.bcn-avisos.negatiu .bcn-icon-dreta-bold {
+.cfu-avisos.negatiu .cfu-avisos-titol p,
+.cfu-avisos.negatiu .cfu-avisos-text p,
+.cfu-avisos.negatiu .cfu-icon-dreta-bold {
 	color: white;
 }
 
-.bcn-avisos .bcn-avisos-text p,
-.bcn-avisos .bcn-icon-dreta-bold {
+.cfu-avisos .cfu-avisos-text p,
+.cfu-avisos .cfu-icon-dreta-bold {
 	color: black;
 }
 
-.bcn-avisos .bcn-avisos-titol p {
+.cfu-avisos .cfu-avisos-titol p {
 	color: #e62037;
 }
 
-#bcn-avisos .bcn-avisos .bcn-avisos-text p::first-letter {
+#cfu-avisos .cfu-avisos .cfu-avisos-text p::first-letter {
 	font-size: 18px;
 	line-height: 55px;
 	height: auto;
@@ -101,7 +101,7 @@
 }
 
 @media screen and (max-width: 767px) {
-	#bcn-avisos .bcn-avisos .bcn-avisos-text p::first-letter {
+	#cfu-avisos .cfu-avisos .cfu-avisos-text p::first-letter {
 		font-size: 14px;
 		line-height: 16px;
 	}
@@ -162,7 +162,7 @@
 	}
 }
 
-.bcn-avisos .bcn-avisos-text p.bcn-partial {
+.cfu-avisos .cfu-avisos-text p.cfu-partial {
 	/*Firefox*/
 	-moz-animation-name: partial;
 	-moz-animation-duration: 30s;
@@ -184,7 +184,7 @@
 }
 
 
-.bcn-avisos .bcn-avisos-text p.bcn-slide {
+.cfu-avisos .cfu-avisos-text p.cfu-slide {
 	/*Firefox*/
 	-moz-animation-name: slide;
 	-moz-animation-duration: 45s;
@@ -207,50 +207,50 @@
 
 @media only screen and (min-width:768px) {
 
-	.bcn-avisos {
+	.cfu-avisos {
 		overflow: hidden;
 		min-height: 55px;
 		height: auto;
 	}
 
-	.bcn-avisos .container, .bcn-avisos .row, .bcn-avisos .col-xs-12 {
+	.cfu-avisos .container, .cfu-avisos .row, .cfu-avisos .col-xs-12 {
 		height: 100%;
 	}
 
-	.bcn-avisos .bcn-avis {
+	.cfu-avisos .cfu-avis {
 		position: relative;
 		overflow: hidden;
 		line-height: 55px;
 	}
 
-	.bcn-avisos .bcn-avisos-titol {
+	.cfu-avisos .cfu-avisos-titol {
 		position: relative;
 		z-index: 1;
 		float: left;
         line-height: 52px;
 	}
 
-	.bcn-avisos .bcn-avisos-titol * {
+	.cfu-avisos .cfu-avisos-titol * {
 		display: inline-block;
 	}
 
-	.bcn-avisos .bcn-avisos-text {
+	.cfu-avisos .cfu-avisos-text {
 		overflow: hidden;
 	}
 
-	.bcn-avisos .bcn-avisos-titol img {
+	.cfu-avisos .cfu-avisos-titol img {
 		height: 30px;
         width: auto;
 		vertical-align: middle;
         margin-right: 16px;
 	}
 
-	.bcn-avisos p {
+	.cfu-avisos p {
 		font-size: 18px;
 		line-height: 55px;
 	}
 
-	.bcn-avisos .bcn-avisos-titol p {
+	.cfu-avisos .cfu-avisos-titol p {
 		vertical-align: middle;
 		padding-right: 12px;
 		font-weight: 600;
@@ -258,18 +258,18 @@
 		/*margin-top: 8px;*/
 	}
 
-	.bcn-avisos .bcn-avisos-text p {
+	.cfu-avisos .cfu-avisos-text p {
 		line-height: 55px;
 		letter-spacing: -0.1px;
 	}
 
-	.bcn-avisos .bcn-avisos-text p.bcn-fixed {
+	.cfu-avisos .cfu-avisos-text p.cfu-fixed {
     	position: absolute;
     	white-space: nowrap;
 	}
 
 
-	.bcn-avisos .bcn-icon-dreta-bold {
+	.cfu-avisos .cfu-icon-dreta-bold {
 		position: absolute;
 		top: 50%;
 		right: 0;
@@ -286,28 +286,28 @@
 	    line-height: 55px;
 	}
 
-	.bcn-avisos .bcn-icon-baix-light {
+	.cfu-avisos .cfu-icon-baix-light {
 		display: none;
 	}
 
-	.bcn-avisos .bcn-icon-dreta-bold {
+	.cfu-avisos .cfu-icon-dreta-bold {
 		background-color: white;
 	}
-	.bcn-avisos.negatiu .bcn-icon-dreta-bold {
+	.cfu-avisos.negatiu .cfu-icon-dreta-bold {
 		background-color: #4869ad;
 	}
 
-	.bcn-avisos .bcn-avisos-text .clon {
+	.cfu-avisos .cfu-avisos-text .clon {
 		-ms-transform: translate(100%,0);
 		-moz-transform: translate(100%,0);
 		-webkit-transform: translate(100%,0);
 		transform: translate(100%,0);
 	}
 
-	.bcn-avisos.bcn-ie9 {
+	.cfu-avisos.cfu-ie9 {
 		height: auto;
 	}
-	.bcn-avisos.bcn-ie9 .bcn-avis {
+	.cfu-avisos.cfu-ie9 .cfu-avis {
 		-ms-transform: none;
 		-moz-transform: none;
 		-webkit-transform: none;
@@ -320,20 +320,20 @@
 
 @media only screen and (max-width:767px) {
 
-	.bcn-avisos {
+	.cfu-avisos {
 		padding-top: 8px;
 		padding-bottom: 10px;
 	}
 
-	.bcn-avisos .grid {
+	.cfu-avisos .grid {
 		position: relative;
 	}
 
-	.bcn-avisos .bcn-avisos-titol {
+	.cfu-avisos .cfu-avisos-titol {
 		margin-bottom: 6px;
 	}
 
-	.bcn-avisos .bcn-avisos-titol img {
+	.cfu-avisos .cfu-avisos-titol img {
 		margin-right: 8px;
 		vertical-align: middle;
 		float: left;
@@ -342,7 +342,7 @@
         width: auto;
 	}
 
-	.bcn-avisos .bcn-avisos-titol p {
+	.cfu-avisos .cfu-avisos-titol p {
 		display: block;
         font-size: 16px;
         line-height: 16px;
@@ -354,29 +354,29 @@
         margin-bottom: 10px;
 	}
 
-	.bcn-avisos .bcn-avisos-text {
+	.cfu-avisos .cfu-avisos-text {
 		padding-right: 18px;
 		transition: all ease .5s;
 		height: auto;
 		clear: both;
 	}
 
-	.bcn-avisos .bcn-avisos-text.bcn-clamp {
+	.cfu-avisos .cfu-avisos-text.cfu-clamp {
 		height: 32px !important;
 		overflow: hidden;
 
 	}
 
-	.bcn-avisos .bcn-avisos-text p {
+	.cfu-avisos .cfu-avisos-text p {
 		font-size: 14px;
 		line-height: 16px;
 	}
 
-	.bcn-avisos .bcn-icon-dreta-bold {
+	.cfu-avisos .cfu-icon-dreta-bold {
 		display: none;
 	}
 
-	.bcn-avisos .bcn-icon-baix-light {
+	.cfu-avisos .cfu-icon-baix-light {
 		position: absolute;
     	right: 10px;
     	bottom: 0px;
@@ -384,17 +384,17 @@
     	transition: all ease .5s;
 	}
 
-	.bcn-avisos .bcn-icon-baix-light.bcn-rotate {
+	.cfu-avisos .cfu-icon-baix-light.cfu-rotate {
 		-ms-transform: rotate(180deg);
 		-moz-transform: rotate(180deg);
 		-webkit-transform: rotate(180deg);
 		transform: rotate(180deg);
 	}
 
-	.bcn-avisos .bcn-icon-baix-light {
+	.cfu-avisos .cfu-icon-baix-light {
 		color: black;
 	}
-	.bcn-avisos.negatiu .bcn-icon-baix-light {
+	.cfu-avisos.negatiu .cfu-icon-baix-light {
 		color: white;
 	}
 }

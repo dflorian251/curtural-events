@@ -199,7 +199,7 @@
 #brand.v2017simple * {
   font-family: "Source Sans Pro";
   font-weight: 400; }
-#brand.v2017simple #bcnbrand-underline {
+#brand.v2017simple #cfubrand-underline {
   height: 1px;
   background: #eeeeee 0% 0% no-repeat padding-box;
   opacity: 1; }
@@ -219,24 +219,24 @@
   text-decoration: none;
   color: #111013;
   font-weight: 400; }
-#brand.v2017simple .bcnbrand-list {
+#brand.v2017simple .cfubrand-list {
   padding-left: 0; }
-#brand.v2017simple .bcnbrand-list > li {
+#brand.v2017simple .cfubrand-list > li {
   display: inline-block; }
-#brand.v2017simple .bcnbrand-circle {
+#brand.v2017simple .cfubrand-circle {
   display: inline-block;
   border-radius: 50%;
   color: white;
   font-size: 30px;
   padding: 5px;
   margin-right: 6px; }
-#brand.v2017simple .bcnbrand-bg-green {
+#brand.v2017simple .cfubrand-bg-green {
   background-color: #a4c376; }
-#brand.v2017simple .bcnbrand-bg-yellow {
+#brand.v2017simple .cfubrand-bg-yellow {
   background-color: #efb149; }
-#brand.v2017simple .bcnbrand-bg-purple {
+#brand.v2017simple .cfubrand-bg-purple {
   background-color: #5e50b5; }
-#brand.v2017simple .bcnbrand-lang {
+#brand.v2017simple .cfubrand-lang {
   display: none; }
 #brand.v2017simple img {
   display: block; }
@@ -244,7 +244,7 @@
   position: relative; }
 #brand.v2017simple nav ul li {
   float: none; }
-#brand.v2017simple .sr-only-bcn {
+#brand.v2017simple .sr-only-cfu {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -255,7 +255,7 @@
   border: 0; }
 
 /* Banner 2017 - Desktop */
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-close {
+#brand.v2017simple .cfubrand-desktop .cfubrand-close {
   margin-top: 15px;
   font-size: 26px;
   height: 27px;
@@ -263,137 +263,137 @@
   right: 13px;
   top: -2px;
   width: 27px; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-close .bcnbrand-icon {
+#brand.v2017simple .cfubrand-desktop .cfubrand-close .cfubrand-icon {
   padding-bottom: 1px;
   margin-top: -1px;
   display: block; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-close:hover {
+#brand.v2017simple .cfubrand-desktop .cfubrand-close:hover {
   color: black; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-close.bcnbrand-focus {
+#brand.v2017simple .cfubrand-desktop .cfubrand-close.cfubrand-focus {
   outline: 2px solid black; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-main-container {
+#brand.v2017simple .cfubrand-desktop .cfubrand-main-container {
   background-color: white;
   position: relative; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main {
+#brand.v2017simple .cfubrand-desktop .cfubrand-main-container .cfubrand-main {
   margin-left: auto;
   margin-right: auto;
   font-size: 21px; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-list {
+#brand.v2017simple .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-list {
   position: relative; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-list .bcnbrand-logo-container {
+#brand.v2017simple .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-list .cfubrand-logo-container {
   position: absolute;
   top: 0;
   right: 0; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-list .bcnbrand-logo-container .bcnbrand-logo-main {
+#brand.v2017simple .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-list .cfubrand-logo-container .cfubrand-logo-main {
   display: block; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-list .bcnbrand-logo-container .bcnbrand-logo-main.bcnbrand-focus {
+#brand.v2017simple .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-list .cfubrand-logo-container .cfubrand-logo-main.cfubrand-focus {
   margin-left: -5px;
   outline: 2px solid black;
   padding-left: 5px; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-list .bcnbrand-logo-container .bcnbrand-logo-main.bcnbrand-focus img {
+#brand.v2017simple .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-list .cfubrand-logo-container .cfubrand-logo-main.cfubrand-focus img {
   outline: none;
   margin-bottom: unset; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-list .bcnbrand-logo-container .bcnbrand-logo-main.shield-svg {
+#brand.v2017simple .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-list .cfubrand-logo-container .cfubrand-logo-main.shield-svg {
   display: block !important;
   outline: 2px solid transparent;
   width: 135px; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-list .bcnbrand-logo-container .bcnbrand-logo-main.shield-svg img {
+#brand.v2017simple .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-list .cfubrand-logo-container .cfubrand-logo-main.shield-svg img {
   float: right;
   max-height: 45px; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-list .bcnbrand-logo-container .bcnbrand-logo-main.shield-svg.bcnbrand-focus {
+#brand.v2017simple .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-list .cfubrand-logo-container .cfubrand-logo-main.shield-svg.cfubrand-focus {
   display: inline-block !important;
   outline: 2px solid black; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-list .bcnbrand-logo-2024-container {
+#brand.v2017simple .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-list .cfubrand-logo-2024-container {
   position: absolute;
   top: 0;
   right: 0;
   margin-right: 15px; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-list .bcnbrand-logo-2024-container .bcnbrand-logo-2024-main {
+#brand.v2017simple .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-list .cfubrand-logo-2024-container .cfubrand-logo-2024-main {
   display: block; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-list .bcnbrand-logo-2024-container .bcnbrand-logo-2024-main.bcnbrand-focus {
+#brand.v2017simple .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-list .cfubrand-logo-2024-container .cfubrand-logo-2024-main.cfubrand-focus {
   margin-left: -5px;
   outline: 2px solid black;
   padding-left: 5px; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-list .bcnbrand-logo-2024-container .bcnbrand-logo-2024-main.bcnbrand-focus img {
+#brand.v2017simple .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-list .cfubrand-logo-2024-container .cfubrand-logo-2024-main.cfubrand-focus img {
   outline: none;
   margin-bottom: unset; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-list .bcnbrand-logo-2024-container .bcnbrand-logo-2024-main.shield-svg {
+#brand.v2017simple .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-list .cfubrand-logo-2024-container .cfubrand-logo-2024-main.shield-svg {
   display: block !important;
   outline: 2px solid transparent;
   width: 135px; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-list .bcnbrand-logo-2024-container .bcnbrand-logo-2024-main.shield-svg img {
+#brand.v2017simple .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-list .cfubrand-logo-2024-container .cfubrand-logo-2024-main.shield-svg img {
   float: right;
   max-height: 45px; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-list .bcnbrand-logo-2024-container .bcnbrand-logo-2024-main.shield-svg.bcnbrand-focus {
+#brand.v2017simple .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-list .cfubrand-logo-2024-container .cfubrand-logo-2024-main.shield-svg.cfubrand-focus {
   display: inline-block !important;
   outline: 2px solid black; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-list .bcnbrand-lang-container {
+#brand.v2017simple .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-list .cfubrand-lang-container {
   padding: 12px 0 10px; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-list .bcnbrand-lang-container .bcnbrand-select-lang {
+#brand.v2017simple .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-list .cfubrand-lang-container .cfubrand-select-lang {
   position: relative;
   top: -4px;
   font-size: 14px; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-list .bcnbrand-lang-container .bcnbrand-select-lang .bcnbrand-icon {
+#brand.v2017simple .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-list .cfubrand-lang-container .cfubrand-select-lang .cfubrand-icon {
   font-size: 11px; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-list .bcnbrand-nav-link.active .bcn-icon-baix-bold, #brand.v2017simple .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-list .bcnbrand-nav-link:not(.active) .bcn-icon-dalt-bold {
+#brand.v2017simple .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-list .cfubrand-nav-link.active .cfu-icon-baix-bold, #brand.v2017simple .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-list .cfubrand-nav-link:not(.active) .cfu-icon-dalt-bold {
   display: none; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-list .bcnbrand-nav-link-lang-selector {
+#brand.v2017simple .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-list .cfubrand-nav-link-lang-selector {
   line-height: 0;
   display: block;
   margin: 0 auto;
   padding: 1px 0;
   width: 5em; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-list .bcnbrand-nav-link-lang-selector {
+#brand.v2017simple .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-list .cfubrand-nav-link-lang-selector {
   color: #696973; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-list .bcnbrand-nav-link-lang-selector:hover, #brand.v2017simple .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-list .bcnbrand-nav-link-lang-selector.active {
+#brand.v2017simple .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-list .cfubrand-nav-link-lang-selector:hover, #brand.v2017simple .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-list .cfubrand-nav-link-lang-selector.active {
   color: black; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-list .bcnbrand-nav-link-lang-selector.bcnbrand-focus {
+#brand.v2017simple .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-list .cfubrand-nav-link-lang-selector.cfubrand-focus {
   outline: 2px solid black;
   color: black; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-list li:last-child {
+#brand.v2017simple .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-list li:last-child {
   float: right;
   margin-top: 1px; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-navs-container {
+#brand.v2017simple .cfubrand-desktop .cfubrand-navs-container {
   background-color: #f2f2f2; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-navs-container .bcnbrand-open-nav {
+#brand.v2017simple .cfubrand-desktop .cfubrand-navs-container .cfubrand-open-nav {
   min-height: 124px;
   max-height: none !important; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-navs-container nav {
+#brand.v2017simple .cfubrand-desktop .cfubrand-navs-container nav {
   max-height: 0;
   overflow: hidden;
   height: auto;
   margin-left: auto;
   margin-right: auto; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-lang ul {
+#brand.v2017simple .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-lang ul {
   padding-top: 54px;
   padding-bottom: 55px; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-lang ul li {
+#brand.v2017simple .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-lang ul li {
   padding: 0 5px;
   margin-right: 0; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-lang ul a {
+#brand.v2017simple .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-lang ul a {
   font-size: 16px;
   color: #696973;
   padding: 0; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-lang ul a:hover {
+#brand.v2017simple .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-lang ul a:hover {
   border-bottom: 1px solid black;
   color: black; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-lang ul a.active {
+#brand.v2017simple .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-lang ul a.active {
   font-weight: 600;
   color: black; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-lang ul a.bcnbrand-focus {
+#brand.v2017simple .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-lang ul a.cfubrand-focus {
   margin: 0 -5px;
   outline: 2px solid black;
   padding: 0 5px; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-lang.bcnbrand-lang-extended ul:first-of-type {
+#brand.v2017simple .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-lang.cfubrand-lang-extended ul:first-of-type {
   padding-bottom: 7px; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-lang.bcnbrand-lang-extended ul:not(:first-of-type) {
+#brand.v2017simple .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-lang.cfubrand-lang-extended ul:not(:first-of-type) {
   line-height: 1;
   padding: 0 0 2px; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-lang.bcnbrand-lang-extended ul:not(:first-of-type) li:not(:last-child) {
+#brand.v2017simple .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-lang.cfubrand-lang-extended ul:not(:first-of-type) li:not(:last-child) {
   position: relative;
   margin-right: 1px;
   padding-right: 10px; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-lang.bcnbrand-lang-extended ul:not(:first-of-type) li:not(:last-child)::after {
+#brand.v2017simple .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-lang.cfubrand-lang-extended ul:not(:first-of-type) li:not(:last-child)::after {
   content: "";
   position: absolute;
   right: 0;
@@ -401,21 +401,21 @@
   height: 1px;
   background-color: #696973;
   top: 8px; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-lang.bcnbrand-lang-extended ul:not(:first-of-type) li a {
+#brand.v2017simple .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-lang.cfubrand-lang-extended ul:not(:first-of-type) li a {
   font-size: 14px;
   font-style: italic; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-lang.bcnbrand-lang-extended ul:last-of-type {
+#brand.v2017simple .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-lang.cfubrand-lang-extended ul:last-of-type {
   padding-bottom: 32px; }
-#brand.v2017simple .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-lang.bcnbrand-lang-extended ul:last-of-type li a {
+#brand.v2017simple .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-lang.cfubrand-lang-extended ul:last-of-type li a {
   font-style: normal; }
 
-#brand.v2017simple.v2024 .bcnbrand-desktop .bcnbrand-main-container {
+#brand.v2017simple.v2024 .cfubrand-desktop .cfubrand-main-container {
   padding: 4px 0 3px 0; }
-#brand.v2017simple.v2024 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-list .bcnbrand-lang-container {
+#brand.v2017simple.v2024 .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-list .cfubrand-lang-container {
   padding: 11px 0 10px; }
 
 /* Banner 2017 - Mobile */
-#brand.v2017simple .bcnbrand-mobile .bcnbrand-close {
+#brand.v2017simple .cfubrand-mobile .cfubrand-close {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -427,65 +427,65 @@
   z-index: 9999;
   background-color: #f2f2f2;
   font-size: 26px; }
-#brand.v2017simple .bcnbrand-mobile .bcnbrand-close.bcnbrand-focus span {
+#brand.v2017simple .cfubrand-mobile .cfubrand-close.cfubrand-focus span {
   outline: 2px solid black; }
-#brand.v2017simple .bcnbrand-mobile .bcnbrand-close span {
+#brand.v2017simple .cfubrand-mobile .cfubrand-close span {
   font-weight: 700; }
-#brand.v2017simple .bcnbrand-mobile .bcnbrand-main-container {
+#brand.v2017simple .cfubrand-mobile .cfubrand-main-container {
   background-color: white; }
-#brand.v2017simple .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main {
+#brand.v2017simple .cfubrand-mobile .cfubrand-main-container .cfubrand-main {
   overflow: hidden; }
-#brand.v2017simple .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main .bcnbrand-list {
+#brand.v2017simple .cfubrand-mobile .cfubrand-main-container .cfubrand-main .cfubrand-list {
   position: relative; }
-#brand.v2017simple .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main .bcnbrand-list div {
+#brand.v2017simple .cfubrand-mobile .cfubrand-main-container .cfubrand-main .cfubrand-list div {
   height: 35px;
   display: block;
   vertical-align: middle;
   line-height: 0; }
-#brand.v2017simple .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main .bcnbrand-list div.bcnbrand-lang-container a {
+#brand.v2017simple .cfubrand-mobile .cfubrand-main-container .cfubrand-main .cfubrand-list div.cfubrand-lang-container a {
   line-height: 0;
   display: inline-table;
   margin: 8px 0 7px;
   padding: 0; }
-#brand.v2017simple .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main .bcnbrand-list div.bcnbrand-logo-container {
+#brand.v2017simple .cfubrand-mobile .cfubrand-main-container .cfubrand-main .cfubrand-list div.cfubrand-logo-container {
   position: absolute;
   right: 0;
   top: 0;
   height: 33px; }
-#brand.v2017simple .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main .bcnbrand-list div.bcnbrand-logo-2024-container {
+#brand.v2017simple .cfubrand-mobile .cfubrand-main-container .cfubrand-main .cfubrand-list div.cfubrand-logo-2024-container {
   position: absolute;
   right: 0;
   top: 0;
   height: 33px;
   margin-right: 12px; }
-#brand.v2017simple .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main .bcnbrand-list div a.bcnbrand-nav-link .bcnbrand-select-lang {
+#brand.v2017simple .cfubrand-mobile .cfubrand-main-container .cfubrand-main .cfubrand-list div a.cfubrand-nav-link .cfubrand-select-lang {
   color: #696973;
   font-size: 14px;
   position: relative;
   top: -4px;
   left: 1px;
   padding: 0; }
-#brand.v2017simple .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main .bcnbrand-list div a.bcnbrand-nav-link .bcnbrand-select-lang .bcn-icon-baix-bold {
+#brand.v2017simple .cfubrand-mobile .cfubrand-main-container .cfubrand-main .cfubrand-list div a.cfubrand-nav-link .cfubrand-select-lang .cfu-icon-baix-bold {
   font-size: 11px; }
-#brand.v2017simple .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main .bcnbrand-list div a.bcnbrand-nav-link .bcnbrand-select-lang .bcn-icon-dalt-bold {
+#brand.v2017simple .cfubrand-mobile .cfubrand-main-container .cfubrand-main .cfubrand-list div a.cfubrand-nav-link .cfubrand-select-lang .cfu-icon-dalt-bold {
   display: none; }
-#brand.v2017simple .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main .bcnbrand-list div a.bcnbrand-nav-link.active .bcn-icon-dalt-bold {
+#brand.v2017simple .cfubrand-mobile .cfubrand-main-container .cfubrand-main .cfubrand-list div a.cfubrand-nav-link.active .cfu-icon-dalt-bold {
   display: inherit; }
-#brand.v2017simple .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main .bcnbrand-list div a.bcnbrand-nav-link.active .bcn-icon-baix-bold {
+#brand.v2017simple .cfubrand-mobile .cfubrand-main-container .cfubrand-main .cfubrand-list div a.cfubrand-nav-link.active .cfu-icon-baix-bold {
   display: none; }
-#brand.v2017simple .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main .bcnbrand-list div .bcnbrand-nav-link-lang-selector.bcnbrand-focus {
+#brand.v2017simple .cfubrand-mobile .cfubrand-main-container .cfubrand-main .cfubrand-list div .cfubrand-nav-link-lang-selector.cfubrand-focus {
   outline: 2px solid black; }
-#brand.v2017simple .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main .bcnbrand-list div .bcnbrand-nav-link-lang-selector.bcnbrand-focus .bcnbrand-icon {
+#brand.v2017simple .cfubrand-mobile .cfubrand-main-container .cfubrand-main .cfubrand-list div .cfubrand-nav-link-lang-selector.cfubrand-focus .cfubrand-icon {
   color: black; }
-#brand.v2017simple .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main .bcnbrand-list div .bcnbrand-nav-link-lang-selector.bcnbrand-focus .bcnbrand-lang-text {
+#brand.v2017simple .cfubrand-mobile .cfubrand-main-container .cfubrand-main .cfubrand-list div .cfubrand-nav-link-lang-selector.cfubrand-focus .cfubrand-lang-text {
   color: black; }
-#brand.v2017simple .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main .bcnbrand-list:last-of-type div:last-child a {
+#brand.v2017simple .cfubrand-mobile .cfubrand-main-container .cfubrand-main .cfubrand-list:last-of-type div:last-child a {
   display: block; }
-#brand.v2017simple .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main .bcnbrand-list:last-of-type div:last-child a.bcnbrand-focus {
+#brand.v2017simple .cfubrand-mobile .cfubrand-main-container .cfubrand-main .cfubrand-list:last-of-type div:last-child a.cfubrand-focus {
   outline: 2px solid black;
   padding-left: 5px;
   margin-left: -5px; }
-#brand.v2017simple .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang {
+#brand.v2017simple .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang {
   border-top: 2px solid #eeeeee;
   max-height: 0px;
   overflow-y: hidden;
@@ -495,85 +495,85 @@
   height: -moz-calc(100vh - 35px);
   height: calc(100vh - 35px);
   background-color: #f2f2f2; }
-#brand.v2017simple .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang.bcnbrand-open-nav {
+#brand.v2017simple .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang.cfubrand-open-nav {
   overflow-y: auto; }
-#brand.v2017simple .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang.bcnbrand-open-nav .bcnbrand-close {
+#brand.v2017simple .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang.cfubrand-open-nav .cfubrand-close {
   position: absolute; }
-#brand.v2017simple .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul li {
+#brand.v2017simple .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul li {
   display: block; }
-#brand.v2017simple .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul li a {
+#brand.v2017simple .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul li a {
   color: #696973; }
-#brand.v2017simple .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul li a.bcnbrand-focus {
+#brand.v2017simple .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul li a.cfubrand-focus {
   margin: 0 -5px;
   outline: 2px solid black;
   padding: 0 5px; }
-#brand.v2017simple .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul li a.active {
+#brand.v2017simple .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul li a.active {
   color: black;
   font-weight: 600; }
-#brand.v2017simple .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul:first-of-type {
+#brand.v2017simple .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul:first-of-type {
   padding-top: 36px; }
-#brand.v2017simple .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul:first-of-type li {
+#brand.v2017simple .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul:first-of-type li {
   margin-bottom: 11px; }
-#brand.v2017simple .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul:first-of-type li a {
+#brand.v2017simple .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul:first-of-type li a {
   font-size: 24px; }
-#brand.v2017simple .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul.bcnbrand-extended {
+#brand.v2017simple .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul.cfubrand-extended {
   padding-top: 11px;
   padding-bottom: 66px; }
-#brand.v2017simple .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul.bcnbrand-extended li {
+#brand.v2017simple .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul.cfubrand-extended li {
   margin-bottom: 15px; }
-#brand.v2017simple .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul.bcnbrand-extended li a {
+#brand.v2017simple .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul.cfubrand-extended li a {
   font-size: 18px;
   font-style: italic; }
 
-#brand.v2017simple.v2024 .bcnbrand-mobile .bcnbrand-main-container {
+#brand.v2017simple.v2024 .cfubrand-mobile .cfubrand-main-container {
   padding: 3px 0 2px 0; }
-#brand.v2017simple.v2024 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main .bcnbrand-list div {
+#brand.v2017simple.v2024 .cfubrand-mobile .cfubrand-main-container .cfubrand-main .cfubrand-list div {
   height: 34px; }
 
 /* Banner 2017 - Mediaqueries */
 @media (min-width: 768px) and (max-width: 1023px) {
-  #brand.v2017simple .bcnbrand-desktop .bcnbrand-close {
+  #brand.v2017simple .cfubrand-desktop .cfubrand-close {
     margin-top: 0;
     right: 4px; } }
 @media all and (min-width: 768px) {
-  #brand.v2017simple .bcnbrand-mobile {
+  #brand.v2017simple .cfubrand-mobile {
     display: none; } }
 @media not all and (min-width: 768px) {
-  #brand.v2017simple.v2024 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main .bcnbrand-list:last-of-type div:last-of-type img {
+  #brand.v2017simple.v2024 .cfubrand-mobile .cfubrand-main-container .cfubrand-main .cfubrand-list:last-of-type div:last-of-type img {
     height: 32px;
     margin-bottom: 1px; }
 
-  #brand.v2017simple .bcnbrand-desktop {
+  #brand.v2017simple .cfubrand-desktop {
     display: none; }
-  #brand.v2017simple .bcnbrand-mobile .bcnbrand-close {
+  #brand.v2017simple .cfubrand-mobile .cfubrand-close {
     font-size: 19px;
     padding-bottom: 9px;
     padding-top: 10px; }
-  #brand.v2017simple .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main .shield-svg {
+  #brand.v2017simple .cfubrand-mobile .cfubrand-main-container .cfubrand-main .shield-svg {
     display: block; }
-  #brand.v2017simple .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main .bcnbrand-list div .bcn-icon-idioma {
+  #brand.v2017simple .cfubrand-mobile .cfubrand-main-container .cfubrand-main .cfubrand-list div .cfu-icon-idioma {
     top: -1px;
     right: -2px;
     font-size: 21px;
     color: #696973; }
-  #brand.v2017simple .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main .bcnbrand-list:last-of-type div:last-of-type img {
+  #brand.v2017simple .cfubrand-mobile .cfubrand-main-container .cfubrand-main .cfubrand-list:last-of-type div:last-of-type img {
     height: 33px;
     margin-top: 1px;
     margin-bottom: 2px; }
-  #brand.v2017simple .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul:first-of-type {
+  #brand.v2017simple .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul:first-of-type {
     padding-top: 34px;
     margin-bottom: 8px; }
-  #brand.v2017simple .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul:first-of-type li {
+  #brand.v2017simple .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul:first-of-type li {
     margin-bottom: 9px; }
-  #brand.v2017simple .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul:first-of-type li a {
+  #brand.v2017simple .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul:first-of-type li a {
     font-size: 18px; }
-  #brand.v2017simple .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul.bcnbrand-extended {
+  #brand.v2017simple .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul.cfubrand-extended {
     padding-top: 8px; }
-  #brand.v2017simple .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul.bcnbrand-extended li {
+  #brand.v2017simple .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul.cfubrand-extended li {
     margin-bottom: 10px; }
-  #brand.v2017simple .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul.bcnbrand-extended li:first-child a, #brand.v2017simple .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul.bcnbrand-extended li:nth-child(2) a, #brand.v2017simple .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul.bcnbrand-extended li:nth-child(3) a {
+  #brand.v2017simple .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul.cfubrand-extended li:first-child a, #brand.v2017simple .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul.cfubrand-extended li:nth-child(2) a, #brand.v2017simple .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul.cfubrand-extended li:nth-child(3) a {
     font-style: italic; }
-  #brand.v2017simple .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul.bcnbrand-extended li a {
+  #brand.v2017simple .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul.cfubrand-extended li a {
     font-style: normal;
     font-size: 14px; } }
 /* Banner 2017 - fonts */
@@ -607,26 +607,26 @@
   color: #111013;
   font-weight: 400;
   background-size: 0; }
-#brand.v2017 .bcnbrand-list {
+#brand.v2017 .cfubrand-list {
   padding-left: 0;
   list-style: none; }
-#brand.v2017 .bcnbrand-list > li {
+#brand.v2017 .cfubrand-list > li {
   display: inline-block;
   margin: 0; }
-#brand.v2017 .bcnbrand-circle {
+#brand.v2017 .cfubrand-circle {
   display: inline-block;
   border-radius: 50%;
   color: white;
   font-size: 30px;
   padding: 5px;
   margin-right: 6px; }
-#brand.v2017 .bcnbrand-bg-green {
+#brand.v2017 .cfubrand-bg-green {
   background-color: #a4c376; }
-#brand.v2017 .bcnbrand-bg-yellow {
+#brand.v2017 .cfubrand-bg-yellow {
   background-color: #efb149; }
-#brand.v2017 .bcnbrand-bg-purple {
+#brand.v2017 .cfubrand-bg-purple {
   background-color: #5e50b5; }
-#brand.v2017 .bcnbrand-shortcuts, #brand.v2017 .bcnbrand-lang {
+#brand.v2017 .cfubrand-shortcuts, #brand.v2017 .cfubrand-lang {
   display: none; }
 #brand.v2017 img {
   display: block; }
@@ -634,9 +634,9 @@
   position: relative; }
 #brand.v2017 nav ul li {
   float: none; }
-#brand.v2017 .bcnbrand-nav-link-squares.bcnbrand-focus {
+#brand.v2017 .cfubrand-nav-link-squares.cfubrand-focus {
   position: relative; }
-#brand.v2017 .bcnbrand-nav-link-squares.bcnbrand-focus:after {
+#brand.v2017 .cfubrand-nav-link-squares.cfubrand-focus:after {
   background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
   border-radius: 4px;
   color: white;
@@ -652,7 +652,7 @@
   width: auto;
   z-index: 98;
   box-sizing: initial; }
-#brand.v2017 .sr-only-bcn {
+#brand.v2017 .sr-only-cfu {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -663,7 +663,7 @@
   border: 0; }
 
 /* Banner 2017 - Desktop */
-#brand.v2017 .bcnbrand-desktop .bcnbrand-close {
+#brand.v2017 .cfubrand-desktop .cfubrand-close {
   margin-top: 15px;
   font-size: 26px;
   height: 27px;
@@ -671,33 +671,33 @@
   right: 13px;
   top: -2px;
   width: 27px; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-close .bcnbrand-icon {
+#brand.v2017 .cfubrand-desktop .cfubrand-close .cfubrand-icon {
   padding-bottom: 1px;
   margin-top: -1px;
   display: block; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-close:hover {
+#brand.v2017 .cfubrand-desktop .cfubrand-close:hover {
   color: black; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-close.bcnbrand-focus {
+#brand.v2017 .cfubrand-desktop .cfubrand-close.cfubrand-focus {
   outline: 2px solid black; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container {
   background-color: white;
   position: relative; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main {
   margin-left: auto;
   margin-right: auto;
   font-size: 21px;
   min-height: 46px; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main ul {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main ul {
   position: relative;
   font-size: 1em;
   margin-top: -2px; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main form {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main form {
   position: relative;
   top: -4px;
   margin-bottom: 0px; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main form:hover .bcn-icon-cerca {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main form:hover .cfu-icon-cerca {
   color: black; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main form button {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main form button {
   background-color: transparent !important;
   border: none;
   padding: 2px 3px 2px 4px;
@@ -707,25 +707,25 @@
   line-height: 15px;
   font-size: 12px;
   top: 0; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main form button:hover {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main form button:hover {
   cursor: pointer; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main form button.bcnbrand-focus {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main form button.cfubrand-focus {
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
   box-shadow: none;
   bottom: -1px; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main form button.bcnbrand-focus .bcn-icon-cerca {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main form button.cfubrand-focus .cfu-icon-cerca {
   float: left;
   outline: 2px solid black;
   color: black; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main form button .bcn-icon-cerca {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main form button .cfu-icon-cerca {
   font-size: 21px;
   color: #696973; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main form button .bcn-icon-cerca.active {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main form button .cfu-icon-cerca.active {
   color: black; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main form .bcnbrand-input {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main form .cfubrand-input {
   position: relative; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main form input {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main form input {
   border: none;
   border-bottom: 1px solid #dbdbdb;
   box-sizing: border-box;
@@ -738,196 +738,196 @@
   color: #696973;
   font-style: italic;
   margin: 0; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main form input::-webkit-input-placeholder, #brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main form input::-moz-placeholder, #brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main form input:-ms-input-placeholder, #brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main form input:-moz-placeholder, #brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main form input::placeholder {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main form input::-webkit-input-placeholder, #brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main form input::-moz-placeholder, #brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main form input:-ms-input-placeholder, #brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main form input:-moz-placeholder, #brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main form input::placeholder {
   color: #747480 !important;
   font-size: 14px !important; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main form input.bcnbrand-focus {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main form input.cfubrand-focus {
   padding-bottom: 1px;
   border-bottom: 2px solid black;
   font-style: normal; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-select-lang {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-select-lang {
   position: relative;
   top: -4px;
   font-size: 14px; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-select-lang .bcnbrand-icon {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-select-lang .cfubrand-icon {
   font-size: 11px; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-nav-link.active .bcn-icon-baix-bold, #brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-nav-link:not(.active) .bcn-icon-dalt-bold {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-nav-link.active .cfu-icon-baix-bold, #brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-nav-link:not(.active) .cfu-icon-dalt-bold {
   display: none; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-nav-link-squares {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-nav-link-squares {
   line-height: 0;
   display: block;
   padding: 12px 14px 10px;
   margin-top: -1px; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-nav-link-squares .bcnbrand-icon {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-nav-link-squares .cfubrand-icon {
   color: #696973;
   width: 22px;
   height: 22px;
   display: inline-block;
   line-height: 22px;
   text-align: center; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-nav-link-squares .bcnbrand-icon::before {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-nav-link-squares .cfubrand-icon::before {
   margin: 0; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-nav-link-squares .bcnbrand-icon:hover {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-nav-link-squares .cfubrand-icon:hover {
   color: black; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-nav-link-squares.bcnbrand-focus .bcnbrand-icon {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-nav-link-squares.cfubrand-focus .cfubrand-icon {
   outline: 2px solid black;
   color: black; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-nav-link-lang-selector {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-nav-link-lang-selector {
   line-height: 0;
   display: block;
   margin: 12px 1px 10px 10px;
   padding: 1px 8px; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-nav-link-lang-selector, #brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-nav-link-squares {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-nav-link-lang-selector, #brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-nav-link-squares {
   color: #696973; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-nav-link-lang-selector:hover, #brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-nav-link-lang-selector.active, #brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-nav-link-squares:hover, #brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-nav-link-squares.active {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-nav-link-lang-selector:hover, #brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-nav-link-lang-selector.active, #brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-nav-link-squares:hover, #brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-nav-link-squares.active {
   color: black; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-nav-link-lang-selector.bcnbrand-focus {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-nav-link-lang-selector.cfubrand-focus {
   outline: 2px solid black;
   color: black; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-main-link {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-main-link {
   font-weight: 600;
   font-size: 20px;
   color: black;
   line-height: 35px;
   letter-spacing: -1.32px; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-main-link:hover {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-main-link:hover {
   border-bottom: none;
   text-decoration: underline; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-main-link.bcnbrand-focus {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-main-link.cfubrand-focus {
   margin: 0 -5px;
   outline: 2px solid black;
   padding: 0 5px;
   word-wrap: normal; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-logo-main {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-logo-main {
   display: block;
   margin-top: 1px; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-logo-main.bcnbrand-focus {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-logo-main.cfubrand-focus {
   margin-left: -5px;
   outline: 2px solid black;
   padding-left: 5px; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-logo-main.bcnbrand-focus img {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-logo-main.cfubrand-focus img {
   outline: none;
   margin-bottom: unset; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-logo-main.shield-svg {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-logo-main.shield-svg {
   display: block !important;
   outline: 2px solid transparent;
   width: 136px; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-logo-main.shield-svg img {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-logo-main.shield-svg img {
   float: right;
   max-height: 44px; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-logo-main.shield-svg.bcnbrand-focus {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-logo-main.shield-svg.cfubrand-focus {
   display: table !important;
   margin-left: 0;
   outline: 2px solid black; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main li:first-child {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main li:first-child {
   float: left;
   margin-top: 6px; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main li:nth-child(2) {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main li:nth-child(2) {
   margin-right: 6px; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main li:nth-child(3) {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main li:nth-child(3) {
   margin-right: 15px; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main li:last-child {
+#brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main li:last-child {
   float: right;
   margin-top: 1px; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-navs-container {
+#brand.v2017 .cfubrand-desktop .cfubrand-navs-container {
   background-color: #f2f2f2; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-navs-container .bcnbrand-open-nav {
+#brand.v2017 .cfubrand-desktop .cfubrand-navs-container .cfubrand-open-nav {
   min-height: 124px;
   max-height: none !important; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-navs-container nav {
+#brand.v2017 .cfubrand-desktop .cfubrand-navs-container nav {
   max-height: 0px;
   overflow: hidden;
   height: auto;
   margin-left: auto;
   margin-right: auto; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-shortcuts ul:first-of-type {
+#brand.v2017 .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-shortcuts ul:first-of-type {
   padding-top: 20px;
   padding-bottom: 12px; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-shortcuts ul:first-of-type .bcnbrand-link {
+#brand.v2017 .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-shortcuts ul:first-of-type .cfubrand-link {
   position: relative;
   top: -8px;
   font-weight: 600;
   font-size: 16px;
   padding: 0 5px; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-shortcuts ul:first-of-type li:first-child {
+#brand.v2017 .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-shortcuts ul:first-of-type li:first-child {
   margin-left: 6px;
   margin-right: 15px; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-shortcuts ul:first-of-type .bcnbrand-circle {
+#brand.v2017 .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-shortcuts ul:first-of-type .cfubrand-circle {
   margin-right: 0; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-shortcuts ul:first-of-type a:hover .bcnbrand-link, #brand.v2017 .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-shortcuts ul:first-of-type a.bcnbrand-focus .bcnbrand-link {
+#brand.v2017 .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-shortcuts ul:first-of-type a:hover .cfubrand-link, #brand.v2017 .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-shortcuts ul:first-of-type a.cfubrand-focus .cfubrand-link {
   padding-bottom: 1px; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-shortcuts ul:last-of-type {
+#brand.v2017 .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-shortcuts ul:last-of-type {
   margin-top: 2px;
   padding-bottom: 26px; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-shortcuts ul:last-of-type .bcnbrand-icon {
+#brand.v2017 .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-shortcuts ul:last-of-type .cfubrand-icon {
   font-size: 20px;
   margin-right: 0;
   color: #4c4c4c; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-shortcuts ul:last-of-type .bcnbrand-link {
+#brand.v2017 .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-shortcuts ul:last-of-type .cfubrand-link {
   position: relative;
   top: -5px;
   font-size: 12px;
   letter-spacing: -0.18px;
   margin-left: 5px; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-shortcuts ul:last-of-type a:hover .bcnbrand-icon, #brand.v2017 .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-shortcuts ul:last-of-type a.bcnbrand-focus .bcnbrand-icon {
+#brand.v2017 .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-shortcuts ul:last-of-type a:hover .cfubrand-icon, #brand.v2017 .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-shortcuts ul:last-of-type a.cfubrand-focus .cfubrand-icon {
   color: black; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-shortcuts ul:last-of-type a {
+#brand.v2017 .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-shortcuts ul:last-of-type a {
   margin: -2px -5px 0;
   padding: 2px 5px 0; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-shortcuts ul:last-of-type a.bcnbrand-focus {
+#brand.v2017 .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-shortcuts ul:last-of-type a.cfubrand-focus {
   outline: 2px solid black; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-shortcuts ul:last-of-type a .bcnbrand-link {
+#brand.v2017 .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-shortcuts ul:last-of-type a .cfubrand-link {
   margin: 0;
   outline: none !important;
   padding: 0; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-shortcuts ul li:not(:last-child) {
+#brand.v2017 .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-shortcuts ul li:not(:last-child) {
   margin-left: 0;
   margin-right: 34px; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-shortcuts ul a {
+#brand.v2017 .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-shortcuts ul a {
   display: block;
   padding: 0 5px; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-shortcuts ul a:hover {
+#brand.v2017 .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-shortcuts ul a:hover {
   color: black; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-shortcuts ul a:hover .bcnbrand-link {
+#brand.v2017 .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-shortcuts ul a:hover .cfubrand-link {
   text-decoration: underline;
   padding-bottom: 0;
   border-bottom: none; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-shortcuts ul a.bcnbrand-focus {
+#brand.v2017 .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-shortcuts ul a.cfubrand-focus {
   color: black; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-shortcuts ul a.bcnbrand-focus .bcnbrand-link {
+#brand.v2017 .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-shortcuts ul a.cfubrand-focus .cfubrand-link {
   text-decoration: none;
   border-bottom: none;
   outline: 2px solid black; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-lang ul {
+#brand.v2017 .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-lang ul {
   padding-top: 54px;
   padding-bottom: 55px; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-lang ul li {
+#brand.v2017 .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-lang ul li {
   padding: 0 5px;
   margin-right: 0px; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-lang ul a {
+#brand.v2017 .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-lang ul a {
   font-size: 16px;
   color: #696973;
   padding: 0; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-lang ul a:hover {
+#brand.v2017 .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-lang ul a:hover {
   border-bottom: 1px solid black;
   color: black; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-lang ul a.active {
+#brand.v2017 .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-lang ul a.active {
   font-weight: 600;
   color: black; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-lang ul a.bcnbrand-focus {
+#brand.v2017 .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-lang ul a.cfubrand-focus {
   margin: 0 -5px;
   outline: 2px solid black;
   padding: 0 5px; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-lang.bcnbrand-lang-extended ul:first-of-type {
+#brand.v2017 .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-lang.cfubrand-lang-extended ul:first-of-type {
   padding-bottom: 7px; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-lang.bcnbrand-lang-extended ul:not(:first-of-type) {
+#brand.v2017 .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-lang.cfubrand-lang-extended ul:not(:first-of-type) {
   line-height: 1;
   padding: 0 0 2px; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-lang.bcnbrand-lang-extended ul:not(:first-of-type) li:not(:last-child) {
+#brand.v2017 .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-lang.cfubrand-lang-extended ul:not(:first-of-type) li:not(:last-child) {
   position: relative;
   margin-right: 1px;
   padding-right: 10px; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-lang.bcnbrand-lang-extended ul:not(:first-of-type) li:not(:last-child)::after {
+#brand.v2017 .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-lang.cfubrand-lang-extended ul:not(:first-of-type) li:not(:last-child)::after {
   content: "";
   position: absolute;
   right: 0;
@@ -935,21 +935,21 @@
   height: 1px;
   background-color: #696973;
   top: 8px; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-lang.bcnbrand-lang-extended ul:not(:first-of-type) li a {
+#brand.v2017 .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-lang.cfubrand-lang-extended ul:not(:first-of-type) li a {
   font-size: 14px;
   font-style: italic; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-lang.bcnbrand-lang-extended ul:last-of-type {
+#brand.v2017 .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-lang.cfubrand-lang-extended ul:last-of-type {
   padding-bottom: 32px; }
-#brand.v2017 .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-lang.bcnbrand-lang-extended ul:last-of-type li a {
+#brand.v2017 .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-lang.cfubrand-lang-extended ul:last-of-type li a {
   font-style: normal; }
 
-#brand.v2017.v2024 .bcnbrand-desktop .bcnbrand-main-container {
+#brand.v2017.v2024 .cfubrand-desktop .cfubrand-main-container {
   padding: 4px 0 3px 0; }
-#brand.v2017.v2024 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-logo-main {
+#brand.v2017.v2024 .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-logo-main {
   margin-right: 15px; }
 
 /* Banner 2017 - Mobile */
-#brand.v2017 .bcnbrand-mobile .bcnbrand-close {
+#brand.v2017 .cfubrand-mobile .cfubrand-close {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -961,83 +961,83 @@
   z-index: 9999;
   background-color: #f2f2f2;
   font-size: 26px; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-close.bcnbrand-focus span {
+#brand.v2017 .cfubrand-mobile .cfubrand-close.cfubrand-focus span {
   outline: 2px solid black; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-close span {
+#brand.v2017 .cfubrand-mobile .cfubrand-close span {
   font-weight: 700; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-main-container {
+#brand.v2017 .cfubrand-mobile .cfubrand-main-container {
   background-color: white; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main {
+#brand.v2017 .cfubrand-mobile .cfubrand-main-container .cfubrand-main {
   overflow: hidden; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main ul {
+#brand.v2017 .cfubrand-mobile .cfubrand-main-container .cfubrand-main ul {
   display: table; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main ul li {
+#brand.v2017 .cfubrand-mobile .cfubrand-main-container .cfubrand-main ul li {
   height: 44px;
   display: table-cell;
   vertical-align: middle;
   line-height: 0; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main ul li .bcnbrand-main-link {
+#brand.v2017 .cfubrand-mobile .cfubrand-main-container .cfubrand-main ul li .cfubrand-main-link {
   position: relative;
   top: 1px;
   font-weight: 600;
   font-size: 20px;
   letter-spacing: -1.32px; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main ul li .bcnbrand-main-link.bcnbrand-focus {
+#brand.v2017 .cfubrand-mobile .cfubrand-main-container .cfubrand-main ul li .cfubrand-main-link.cfubrand-focus {
   margin: 0 -5px;
   outline: 2px solid black;
   padding: 0 5px; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main ul li .bcn-icon-menu-drecera, #brand.v2017 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main ul li .bcn-icon-idioma {
+#brand.v2017 .cfubrand-mobile .cfubrand-main-container .cfubrand-main ul li .cfu-icon-menu-drecera, #brand.v2017 .cfubrand-mobile .cfubrand-main-container .cfubrand-main ul li .cfu-icon-idioma {
   position: relative;
   top: 1px;
   font-size: 26px;
   color: #696973; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main ul li a.bcnbrand-nav-link .bcnbrand-select-lang {
+#brand.v2017 .cfubrand-mobile .cfubrand-main-container .cfubrand-main ul li a.cfubrand-nav-link .cfubrand-select-lang {
   color: #696973;
   font-size: 11px;
   position: relative;
   top: -4px;
   left: 1px;
   padding: 8px 0 5px; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main ul li a.bcnbrand-nav-link .bcnbrand-select-lang .bcn-icon-dalt-bold {
+#brand.v2017 .cfubrand-mobile .cfubrand-main-container .cfubrand-main ul li a.cfubrand-nav-link .cfubrand-select-lang .cfu-icon-dalt-bold {
   display: none; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main ul li a.bcnbrand-nav-link.active .bcn-icon-dalt-bold {
+#brand.v2017 .cfubrand-mobile .cfubrand-main-container .cfubrand-main ul li a.cfubrand-nav-link.active .cfu-icon-dalt-bold {
   display: inherit; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main ul li a.bcnbrand-nav-link.active .bcn-icon-baix-bold {
+#brand.v2017 .cfubrand-mobile .cfubrand-main-container .cfubrand-main ul li a.cfubrand-nav-link.active .cfu-icon-baix-bold {
   display: none; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main ul li:first-child {
+#brand.v2017 .cfubrand-mobile .cfubrand-main-container .cfubrand-main ul li:first-child {
   padding-right: 20px; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main ul li:nth-child(2) {
+#brand.v2017 .cfubrand-mobile .cfubrand-main-container .cfubrand-main ul li:nth-child(2) {
   padding-right: 25px; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main ul li .bcnbrand-nav-link-squares.bcnbrand-focus {
+#brand.v2017 .cfubrand-mobile .cfubrand-main-container .cfubrand-main ul li .cfubrand-nav-link-squares.cfubrand-focus {
   display: block; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main ul li .bcnbrand-nav-link-squares.bcnbrand-focus .bcnbrand-icon {
+#brand.v2017 .cfubrand-mobile .cfubrand-main-container .cfubrand-main ul li .cfubrand-nav-link-squares.cfubrand-focus .cfubrand-icon {
   outline: 2px solid black;
   color: black; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main ul li .bcnbrand-nav-link-squares.bcnbrand-focus:after {
+#brand.v2017 .cfubrand-mobile .cfubrand-main-container .cfubrand-main ul li .cfubrand-nav-link-squares.cfubrand-focus:after {
   display: none;
   right: 4.2em;
   top: -0.3em; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main ul li .bcnbrand-nav-link-lang-selector.bcnbrand-focus {
+#brand.v2017 .cfubrand-mobile .cfubrand-main-container .cfubrand-main ul li .cfubrand-nav-link-lang-selector.cfubrand-focus {
   display: block;
   margin: -1px -2px 0 0;
   outline: 2px solid black;
   padding: 1px 2px 0 0 !important; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main ul li .bcnbrand-nav-link-lang-selector.bcnbrand-focus .bcnbrand-icon {
+#brand.v2017 .cfubrand-mobile .cfubrand-main-container .cfubrand-main ul li .cfubrand-nav-link-lang-selector.cfubrand-focus .cfubrand-icon {
   color: black; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main ul:first-of-type {
+#brand.v2017 .cfubrand-mobile .cfubrand-main-container .cfubrand-main ul:first-of-type {
   float: left;
   margin-left: 15px; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main ul:last-of-type {
+#brand.v2017 .cfubrand-mobile .cfubrand-main-container .cfubrand-main ul:last-of-type {
   float: right; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main ul:last-of-type li:last-of-type img {
+#brand.v2017 .cfubrand-mobile .cfubrand-main-container .cfubrand-main ul:last-of-type li:last-of-type img {
   height: 42px; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main .bcnbrand-list:last-of-type li:last-child a {
+#brand.v2017 .cfubrand-mobile .cfubrand-main-container .cfubrand-main .cfubrand-list:last-of-type li:last-child a {
   display: block; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main .bcnbrand-list:last-of-type li:last-child a.bcnbrand-focus {
+#brand.v2017 .cfubrand-mobile .cfubrand-main-container .cfubrand-main .cfubrand-list:last-of-type li:last-child a.cfubrand-focus {
   outline: 2px solid black;
   padding-left: 5px;
   margin-left: -5px; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts {
   border-top: 2px solid #eeeeee;
   max-height: 0px;
   height: -webkit-calc(100vh - 43px);
@@ -1047,19 +1047,19 @@
   overflow-y: hidden;
   position: relative;
   box-sizing: border-box; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts.bcnbrand-open-nav {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts.cfubrand-open-nav {
   overflow-y: auto; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts.bcnbrand-open-nav .bcnbrand-close {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts.cfubrand-open-nav .cfubrand-close {
   position: absolut; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts form {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts form {
   background-color: white;
   padding-top: 8px;
   padding-bottom: 25px; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts form .bcnbrand-input {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts form .cfubrand-input {
   padding-left: 15px;
   padding-right: 15px;
   position: relative; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts form .bcnbrand-input input {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts form .cfubrand-input input {
   width: 100%;
   border: none;
   font-family: "Source Sans Pro";
@@ -1071,20 +1071,20 @@
   padding-bottom: 5px;
   border-bottom: 1px solid #dbdbdb;
   color: #747480; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts form .bcnbrand-input input::-webkit-input-placeholder {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts form .cfubrand-input input::-webkit-input-placeholder {
   color: #747480; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts form .bcnbrand-input input::-moz-placeholder {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts form .cfubrand-input input::-moz-placeholder {
   color: #747480; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts form .bcnbrand-input input:-ms-input-placeholder {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts form .cfubrand-input input:-ms-input-placeholder {
   color: #747480; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts form .bcnbrand-input input:-moz-placeholder {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts form .cfubrand-input input:-moz-placeholder {
   color: #747480; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts form .bcnbrand-input input.bcnbrand-focus {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts form .cfubrand-input input.cfubrand-focus {
   border-bottom: 2px solid black;
   font-style: normal;
   color: black;
   margin-bottom: -1px; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts form .bcnbrand-input button {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts form .cfubrand-input button {
   background-color: transparent !important;
   border: none;
   padding: 0px 3px 0px 4px;
@@ -1094,44 +1094,44 @@
   line-height: 15px;
   font-size: 21px;
   top: 2px; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts form .bcnbrand-input button .bcn-icon-cerca {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts form .cfubrand-input button .cfu-icon-cerca {
   color: #747480; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts form .bcnbrand-input button:hover {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts form .cfubrand-input button:hover {
   cursor: pointer; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts form .bcnbrand-input button:focus {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts form .cfubrand-input button:focus {
   outline: none; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts form .bcnbrand-input button::-moz-focus-inner {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts form .cfubrand-input button::-moz-focus-inner {
   border: 0; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts form .bcnbrand-input button.bcnbrand-focus {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts form .cfubrand-input button.cfubrand-focus {
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
   box-shadow: none;
   bottom: -1px;
   outline: none; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts form .bcnbrand-input button.bcnbrand-focus .bcn-icon-cerca {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts form .cfubrand-input button.cfubrand-focus .cfu-icon-cerca {
   float: left;
   outline: 2px solid black;
   color: black; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts ul:first-of-type {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts ul:first-of-type {
   padding-top: 45px;
   padding-left: 15px;
   padding-right: 15px; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts ul:first-of-type li {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts ul:first-of-type li {
   display: block;
   text-align: left; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts ul:first-of-type li:first-child {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts ul:first-of-type li:first-child {
   margin-bottom: 19px; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts ul:first-of-type li:last-child {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts ul:first-of-type li:last-child {
   margin-bottom: 17px; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts ul:first-of-type li a {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts ul:first-of-type li a {
   display: table; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts ul:first-of-type li a.bcnbrand-focus .bcnbrand-link {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts ul:first-of-type li a.cfubrand-focus .cfubrand-link {
   outline: 2px solid black; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts ul:first-of-type li .bcnbrand-circle {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts ul:first-of-type li .cfubrand-circle {
   font-size: 50px;
   margin-right: 14px;
   padding: 11px 9px 8px 9px; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts ul:first-of-type li .bcnbrand-link {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts ul:first-of-type li .cfubrand-link {
   font-size: 20px;
   letter-spacing: -0.1px;
   display: inline-block;
@@ -1140,53 +1140,53 @@
   position: relative;
   top: -10px;
   font-weight: 600; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts ul:first-of-type li .bcnbrand-link span {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts ul:first-of-type li .cfubrand-link span {
   overflow-wrap: break-word;
   word-break: break-all; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts ul:first-of-type li .bcnbrand-link span.bcnbrand-focus {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts ul:first-of-type li .cfubrand-link span.cfubrand-focus {
   outline: 2px solid black; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts ul:last-of-type {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts ul:last-of-type {
   overflow: hidden;
   padding: 28px 8px 64px 8px; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts ul:last-of-type li {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts ul:last-of-type li {
   width: 50%;
   float: left;
   margin-bottom: 14px;
   padding-left: 7px;
   padding-right: 7px;
   box-sizing: border-box; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts ul:last-of-type li a {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts ul:last-of-type li a {
   display: block;
   width: 100%;
   height: 41px;
   background-color: white;
   padding: 10px 0 0; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts ul:last-of-type li a.bcnbrand-focus {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts ul:last-of-type li a.cfubrand-focus {
   outline: 2px solid black; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts ul:last-of-type li a span {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts ul:last-of-type li a span {
   display: table-cell;
   vertical-align: middle; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts ul:last-of-type li a span.bcnbrand-icon {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts ul:last-of-type li a span.cfubrand-icon {
   font-size: 26px;
   width: 56px;
   color: #4c4c4c;
   position: relative;
   left: -2px;
   top: 1px; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts ul:last-of-type li a span.bcnbrand-link {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts ul:last-of-type li a span.cfubrand-link {
   text-align: left;
   font-size: 18px;
   line-height: 1;
   position: relative;
   top: 1px; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts ul:last-of-type li:first-child a span.bcnbrand-icon {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts ul:last-of-type li:first-child a span.cfubrand-icon {
   top: 2px; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts ul:last-of-type li:first-child a span.bcnbrand-link {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts ul:last-of-type li:first-child a span.cfubrand-link {
   left: 1px; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts ul:last-of-type li:nth-child(5) a span.bcnbrand-link {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts ul:last-of-type li:nth-child(5) a span.cfubrand-link {
   left: 1px;
   top: -1px; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang {
   border-top: 2px solid #eeeeee;
   max-height: 0px;
   overflow-y: hidden;
@@ -1196,288 +1196,288 @@
   height: -moz-calc(100vh - 43px);
   height: calc(100vh - 43px);
   background-color: #f2f2f2; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang.bcnbrand-open-nav {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang.cfubrand-open-nav {
   overflow-y: auto; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang.bcnbrand-open-nav .bcnbrand-close {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang.cfubrand-open-nav .cfubrand-close {
   position: absolute; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul li {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul li {
   display: block; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul li a {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul li a {
   color: #696973; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul li a.bcnbrand-focus {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul li a.cfubrand-focus {
   margin: 0 -5px;
   outline: 2px solid black;
   padding: 0 5px; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul li a.active {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul li a.active {
   color: black;
   font-weight: 600; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul:first-of-type {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul:first-of-type {
   padding-top: 36px; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul:first-of-type li {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul:first-of-type li {
   margin-bottom: 11px; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul:first-of-type li a {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul:first-of-type li a {
   font-size: 24px; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul.bcnbrand-extended {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul.cfubrand-extended {
   padding-top: 11px;
   padding-bottom: 66px; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul.bcnbrand-extended li {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul.cfubrand-extended li {
   margin-bottom: 15px; }
-#brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul.bcnbrand-extended li a {
+#brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul.cfubrand-extended li a {
   font-size: 18px;
   font-style: italic; }
 
-#brand.v2017.v2024 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main .bcnbrand-logo-main {
+#brand.v2017.v2024 .cfubrand-mobile .cfubrand-main-container .cfubrand-main .cfubrand-logo-main {
   margin-right: 15px; }
 
 /* Banner 2017 - Mediaqueries */
 @media (min-width: 1280px) {
-  #brand.v2017.v2024 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-main-link {
+  #brand.v2017.v2024 .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-main-link {
     letter-spacing: -0.5px; } }
 @media (min-width: 1280px) {
-  #brand.v2017.bcnbrand-legacy .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main {
+  #brand.v2017.cfubrand-legacy .cfubrand-desktop .cfubrand-main-container .cfubrand-main {
     width: 1080px; }
-  #brand.v2017.bcnbrand-legacy .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main li:first-child {
+  #brand.v2017.cfubrand-legacy .cfubrand-desktop .cfubrand-main-container .cfubrand-main li:first-child {
     margin-left: 0;
     margin-right: -22px; }
-  #brand.v2017.bcnbrand-legacy .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main li:nth-child(2) {
+  #brand.v2017.cfubrand-legacy .cfubrand-desktop .cfubrand-main-container .cfubrand-main li:nth-child(2) {
     margin-left: 0;
     margin-right: 5px; }
-  #brand.v2017.bcnbrand-legacy .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main li:nth-child(3) {
+  #brand.v2017.cfubrand-legacy .cfubrand-desktop .cfubrand-main-container .cfubrand-main li:nth-child(3) {
     margin-right: 7px; }
-  #brand.v2017.bcnbrand-legacy .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main form button {
+  #brand.v2017.cfubrand-legacy .cfubrand-desktop .cfubrand-main-container .cfubrand-main form button {
     right: -3px; }
-  #brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-main-link {
+  #brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-main-link {
     letter-spacing: -0.6px; }
-  #brand.v2017.bcnbrand-fullscreen .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-list li:first-child {
+  #brand.v2017.cfubrand-fullscreen .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-list li:first-child {
     margin-right: -46px; } }
 @media (min-width: 1170px) {
-  #brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main ul li:first-child {
+  #brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main ul li:first-child {
     margin-left: 24px; }
-  #brand.v2017.bcnbrand-bootstrap.bcnbrand-bootstrap-4 .bcnbrand-main {
+  #brand.v2017.cfubrand-bootstrap.cfubrand-bootstrap-4 .cfubrand-main {
     width: 1110px !important; }
-  #brand.v2017.bcnbrand-bootstrap .bcnbrand-main {
+  #brand.v2017.cfubrand-bootstrap .cfubrand-main {
     width: 1140px; }
-  #brand.v2017.bcnbrand-bootstrap .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-main-link {
+  #brand.v2017.cfubrand-bootstrap .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-main-link {
     letter-spacing: -0.35px; }
-  #brand.v2017.bcnbrand-bootstrap .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main li:first-child {
+  #brand.v2017.cfubrand-bootstrap .cfubrand-desktop .cfubrand-main-container .cfubrand-main li:first-child {
     margin-left: 0; }
-  #brand.v2017.bcnbrand-bootstrap .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main li:nth-child(2) {
+  #brand.v2017.cfubrand-bootstrap .cfubrand-desktop .cfubrand-main-container .cfubrand-main li:nth-child(2) {
     margin-left: -27px;
     margin-right: 11px; }
-  #brand.v2017.bcnbrand-bootstrap .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main li:nth-child(3) {
+  #brand.v2017.cfubrand-bootstrap .cfubrand-desktop .cfubrand-main-container .cfubrand-main li:nth-child(3) {
     margin-right: 6px;
     margin-left: -6px; }
-  #brand.v2017.bcnbrand-bootstrap .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main form button {
+  #brand.v2017.cfubrand-bootstrap .cfubrand-desktop .cfubrand-main-container .cfubrand-main form button {
     right: -3px; }
-  #brand.v2017.bcnbrand-bootstrap .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-nav-link-lang-selector {
+  #brand.v2017.cfubrand-bootstrap .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-nav-link-lang-selector {
     margin: 12px 0px 10px 11px; }
-  #brand.v2017.bcnbrand-fullscreen .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main li:first-child {
+  #brand.v2017.cfubrand-fullscreen .cfubrand-desktop .cfubrand-main-container .cfubrand-main li:first-child {
     margin-right: -30px; }
-  #brand.v2017.bcnbrand-fullscreen .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main li:nth-child(2) {
+  #brand.v2017.cfubrand-fullscreen .cfubrand-desktop .cfubrand-main-container .cfubrand-main li:nth-child(2) {
     margin-right: 5px;
     margin-left: 0; }
-  #brand.v2017.bcnbrand-fullscreen .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main li:nth-child(3) {
+  #brand.v2017.cfubrand-fullscreen .cfubrand-desktop .cfubrand-main-container .cfubrand-main li:nth-child(3) {
     margin-right: 7px; }
-  #brand.v2017.bcnbrand-fullscreen .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main form {
+  #brand.v2017.cfubrand-fullscreen .cfubrand-desktop .cfubrand-main-container .cfubrand-main form {
     top: -4px; }
-  #brand.v2017.bcnbrand-fullscreen .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main form button {
+  #brand.v2017.cfubrand-fullscreen .cfubrand-desktop .cfubrand-main-container .cfubrand-main form button {
     right: -3px; } }
 @media (min-width: 1024px) and (max-width: 1279px) {
-  #brand.v2017.bcnbrand-legacy .bcnbrand-main, #brand.v2017.bcnbrand-legacy .bcnbrand-navs-container nav {
+  #brand.v2017.cfubrand-legacy .cfubrand-main, #brand.v2017.cfubrand-legacy .cfubrand-navs-container nav {
     width: 906px; }
-  #brand.v2017.bcnbrand-legacy .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main li:first-child {
+  #brand.v2017.cfubrand-legacy .cfubrand-desktop .cfubrand-main-container .cfubrand-main li:first-child {
     margin-left: 0;
     margin-right: -10px; }
-  #brand.v2017.bcnbrand-legacy .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main li:nth-child(2) {
+  #brand.v2017.cfubrand-legacy .cfubrand-desktop .cfubrand-main-container .cfubrand-main li:nth-child(2) {
     margin-right: -5px; } }
 @media (min-width: 1024px) and (max-width: 1169px) {
-  #brand.v2017.bcnbrand-bootstrap .bcnbrand-main, #brand.v2017.bcnbrand-bootstrap .bcnbrand-navs-container nav {
+  #brand.v2017.cfubrand-bootstrap .cfubrand-main, #brand.v2017.cfubrand-bootstrap .cfubrand-navs-container nav {
     width: 970px; }
-  #brand.v2017.bcnbrand-bootstrap .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main li:nth-child(2) {
+  #brand.v2017.cfubrand-bootstrap .cfubrand-desktop .cfubrand-main-container .cfubrand-main li:nth-child(2) {
     margin-left: -9px;
     margin-right: -4px; }
-  #brand.v2017.bcnbrand-bootstrap .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-nav-link-lang-selector {
+  #brand.v2017.cfubrand-bootstrap .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-nav-link-lang-selector {
     margin: 12px 0px 10px 9px; }
-  #brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main form input {
+  #brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main form input {
     width: 160px; }
-  #brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main li:first-child {
+  #brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main li:first-child {
     margin-left: 0; }
-  #brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main li:nth-child(2) {
+  #brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main li:nth-child(2) {
     margin-right: 0; }
-  #brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main li:nth-child(3) {
+  #brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main li:nth-child(3) {
     margin-right: -2px; }
-  #brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-select-lang {
+  #brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-select-lang {
     left: -2px; }
-  #brand.v2017.bcnbrand-fullscreen .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main ul li:first-child {
+  #brand.v2017.cfubrand-fullscreen .cfubrand-desktop .cfubrand-main-container .cfubrand-main ul li:first-child {
     margin-left: 12px;
     margin-right: -20px; }
-  #brand.v2017.bcnbrand-fullscreen .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main ul li:nth-child(2) {
+  #brand.v2017.cfubrand-fullscreen .cfubrand-desktop .cfubrand-main-container .cfubrand-main ul li:nth-child(2) {
     margin-right: -4px; }
-  #brand.v2017.bcnbrand-fullscreen .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main ul li:nth-child(3) {
+  #brand.v2017.cfubrand-fullscreen .cfubrand-desktop .cfubrand-main-container .cfubrand-main ul li:nth-child(3) {
     margin-right: -4px; }
-  #brand.v2017.bcnbrand-fullscreen .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main ul li:nth-child(2) {
+  #brand.v2017.cfubrand-fullscreen .cfubrand-desktop .cfubrand-main-container .cfubrand-main ul li:nth-child(2) {
     margin-right: -4px; }
-  #brand.v2017.bcnbrand-fullscreen .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main ul li:nth-child(3) {
+  #brand.v2017.cfubrand-fullscreen .cfubrand-desktop .cfubrand-main-container .cfubrand-main ul li:nth-child(3) {
     margin-right: -3px; } }
 @media (min-width: 768px) and (max-width: 1023px) {
-  #brand.v2017 .bcnbrand-desktop .bcnbrand-close {
+  #brand.v2017 .cfubrand-desktop .cfubrand-close {
     margin-top: 0;
     right: 4px; }
-  #brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main {
+  #brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main {
     margin-left: 10px;
     margin-right: 10px; }
-  #brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-lang-text {
+  #brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-lang-text {
     display: none; }
-  #brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main form input {
+  #brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main form input {
     width: 156px; }
-  #brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main form button {
+  #brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main form button {
     right: -5px; }
-  #brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main li:first-child {
+  #brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main li:first-child {
     margin-left: 6px;
     margin-top: 7px; }
-  #brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main li:nth-child(2) {
+  #brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main li:nth-child(2) {
     margin-right: -2px; }
-  #brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main li:nth-child(3) {
+  #brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main li:nth-child(3) {
     margin-right: 6px;
     margin-left: 4px; }
-  #brand.v2017 .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main .bcnbrand-main-link {
+  #brand.v2017 .cfubrand-desktop .cfubrand-main-container .cfubrand-main .cfubrand-main-link {
     font-size: 16px;
     letter-spacing: -0.25px;
     line-height: 30px; }
-  #brand.v2017 .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-shortcuts ul:first-of-type {
+  #brand.v2017 .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-shortcuts ul:first-of-type {
     padding-top: 21px; }
-  #brand.v2017 .bcnbrand-desktop .bcnbrand-navs-container nav.bcnbrand-shortcuts ul:first-of-type li:not(:last-child) {
+  #brand.v2017 .cfubrand-desktop .cfubrand-navs-container nav.cfubrand-shortcuts ul:first-of-type li:not(:last-child) {
     margin-right: 31px; }
-  #brand.v2017.bcnbrand-legacy .bcnbrand-desktop .bcnbrand-main-container .bcnbrand-main li:first-child {
+  #brand.v2017.cfubrand-legacy .cfubrand-desktop .cfubrand-main-container .cfubrand-main li:first-child {
     margin-left: 0;
     margin-right: 7px; } }
 @media all and (min-width: 768px) {
-  #brand.v2017 .bcnbrand-mobile {
+  #brand.v2017 .cfubrand-mobile {
     display: none; } }
 @media not all and (min-width: 768px) {
-  #brand.v2017 .bcnbrand-desktop {
+  #brand.v2017 .cfubrand-desktop {
     display: none; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main ul li .bcnbrand-main-link {
+  #brand.v2017 .cfubrand-mobile .cfubrand-main-container .cfubrand-main ul li .cfubrand-main-link {
     letter-spacing: -0.35px; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main ul li .bcn-icon-menu-drecera {
+  #brand.v2017 .cfubrand-mobile .cfubrand-main-container .cfubrand-main ul li .cfu-icon-menu-drecera {
     top: 0; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main ul li ul li .bcn-icon-idioma {
+  #brand.v2017 .cfubrand-mobile .cfubrand-main-container .cfubrand-main ul li ul li .cfu-icon-idioma {
     top: 1px; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main ul:last-of-type img {
+  #brand.v2017 .cfubrand-mobile .cfubrand-main-container .cfubrand-main ul:last-of-type img {
     margin-top: 1px;
     margin-bottom: 2px; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main .shield-svg {
+  #brand.v2017 .cfubrand-mobile .cfubrand-main-container .cfubrand-main .shield-svg {
     display: block; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main .shield-svg img {
+  #brand.v2017 .cfubrand-mobile .cfubrand-main-container .cfubrand-main .shield-svg img {
     height: 42px;
     width: 45px; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts form {
+  #brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts form {
     padding-top: 6px; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts ul:last-of-type {
+  #brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts ul:last-of-type {
     padding-top: 27px; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul:first-of-type {
+  #brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul:first-of-type {
     padding-top: 34px; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul.bcnbrand-extended li a {
+  #brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul.cfubrand-extended li a {
     font-style: normal; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul.bcnbrand-extended li:first-child a, #brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul.bcnbrand-extended li:nth-child(2) a, #brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul.bcnbrand-extended li:nth-child(3) a {
+  #brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul.cfubrand-extended li:first-child a, #brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul.cfubrand-extended li:nth-child(2) a, #brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul.cfubrand-extended li:nth-child(3) a {
     font-style: italic; } }
 @media (max-width: 502px) {
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts ul:last-of-type li:nth-child(5) a {
+  #brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts ul:last-of-type li:nth-child(5) a {
     padding-top: 6px;
     height: 40px; } }
 @media (max-width: 411px) {
-  #brand.v2017.v2024 .bcnbrand-mobile .bcnbrand-main-container {
+  #brand.v2017.v2024 .cfubrand-mobile .cfubrand-main-container {
     padding: 3px 0 2px 0; }
-  #brand.v2017.v2024 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main ul:last-of-type li:last-of-type img {
+  #brand.v2017.v2024 .cfubrand-mobile .cfubrand-main-container .cfubrand-main ul:last-of-type li:last-of-type img {
     height: 32px; }
 
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-close {
+  #brand.v2017 .cfubrand-mobile .cfubrand-close {
     font-size: 19px;
     padding-bottom: 9px;
     padding-top: 10px; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main ul li {
+  #brand.v2017 .cfubrand-mobile .cfubrand-main-container .cfubrand-main ul li {
     height: 34px; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main ul li .bcnbrand-main-link {
+  #brand.v2017 .cfubrand-mobile .cfubrand-main-container .cfubrand-main ul li .cfubrand-main-link {
     top: -1px;
     font-size: 16px; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main ul li .bcn-icon-menu-drecera {
+  #brand.v2017 .cfubrand-mobile .cfubrand-main-container .cfubrand-main ul li .cfu-icon-menu-drecera {
     top: -1px;
     font-size: 21px; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main ul li .bcn-icon-idioma {
+  #brand.v2017 .cfubrand-mobile .cfubrand-main-container .cfubrand-main ul li .cfu-icon-idioma {
     top: -1px;
     right: -2px;
     font-size: 21px; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main ul li a.bcnbrand-nav-link:first-child {
+  #brand.v2017 .cfubrand-mobile .cfubrand-main-container .cfubrand-main ul li a.cfubrand-nav-link:first-child {
     padding: 0 15px 0 0 !important;
     margin: 0; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main ul li a.bcnbrand-nav-link:nth-child(2) {
+  #brand.v2017 .cfubrand-mobile .cfubrand-main-container .cfubrand-main ul li a.cfubrand-nav-link:nth-child(2) {
     padding-right: 19px; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main ul li:first-child {
+  #brand.v2017 .cfubrand-mobile .cfubrand-main-container .cfubrand-main ul li:first-child {
     padding-right: 0; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main ul li:nth-child(2) {
+  #brand.v2017 .cfubrand-mobile .cfubrand-main-container .cfubrand-main ul li:nth-child(2) {
     padding-right: 11px; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-main-container .bcnbrand-main ul:last-of-type li:last-of-type img {
+  #brand.v2017 .cfubrand-mobile .cfubrand-main-container .cfubrand-main ul:last-of-type li:last-of-type img {
     height: 33px;
     margin-top: 1px;
     margin-bottom: 2px; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts form {
+  #brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts form {
     padding-top: 9px;
     padding-bottom: 19px; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts form .bcnbrand-input {
+  #brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts form .cfubrand-input {
     padding-left: 14px; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts form .bcnbrand-input input {
+  #brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts form .cfubrand-input input {
     font-size: 16px;
     padding-top: 7px;
     padding-bottom: 4px; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts form .bcnbrand-input button {
+  #brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts form .cfubrand-input button {
     font-size: 22px; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts ul:first-of-type {
+  #brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts ul:first-of-type {
     padding-top: 42px; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts ul:first-of-type li .bcnbrand-circle {
+  #brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts ul:first-of-type li .cfubrand-circle {
     font-size: 40px;
     margin-right: 10px;
     padding: 7.5px 7px 6.5px 7px; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts ul:first-of-type li .bcnbrand-link {
+  #brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts ul:first-of-type li .cfubrand-link {
     font-size: 16px; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts ul:first-of-type li:first-child {
+  #brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts ul:first-of-type li:first-child {
     margin-bottom: 14px; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts ul:first-of-type li:last-child {
+  #brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts ul:first-of-type li:last-child {
     margin-bottom: 16px; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts ul:last-of-type {
+  #brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts ul:last-of-type {
     padding-top: 24px;
     padding-left: 13px;
     padding-right: 13px; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts ul:last-of-type li {
+  #brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts ul:last-of-type li {
     margin-bottom: 4px;
     padding-left: 2px;
     padding-right: 2px; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts ul:last-of-type li a {
+  #brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts ul:last-of-type li a {
     padding-bottom: 0;
     height: 40px;
     box-sizing: border-box; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts ul:last-of-type li a span.bcnbrand-icon {
+  #brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts ul:last-of-type li a span.cfubrand-icon {
     font-size: 20px;
     width: 44px;
     top: 0; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts ul:last-of-type li a span.bcnbrand-link {
+  #brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts ul:last-of-type li a span.cfubrand-link {
     font-size: 14px;
     top: 0; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts ul:last-of-type li:first-child a span.bcnbrand-icon {
+  #brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts ul:last-of-type li:first-child a span.cfubrand-icon {
     top: 0; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-shortcuts ul:last-of-type li:first-child a span.bcnbrand-link {
+  #brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-shortcuts ul:last-of-type li:first-child a span.cfubrand-link {
     left: 0; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul:first-of-type {
+  #brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul:first-of-type {
     padding-top: 26px;
     margin-bottom: 8px; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul:first-of-type li {
+  #brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul:first-of-type li {
     margin-bottom: 9px; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul:first-of-type li a {
+  #brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul:first-of-type li a {
     font-size: 18px; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul.bcnbrand-extended {
+  #brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul.cfubrand-extended {
     padding-top: 8px; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul.bcnbrand-extended li {
+  #brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul.cfubrand-extended li {
     margin-bottom: 10px; }
-  #brand.v2017 .bcnbrand-mobile .bcnbrand-navs-container .bcnbrand-lang ul.bcnbrand-extended li a {
+  #brand.v2017 .cfubrand-mobile .cfubrand-navs-container .cfubrand-lang ul.cfubrand-extended li a {
     font-size: 14px; } }
 /* Banner 2015 - Google web fonts */
 #brand.v2015 .wrapper .content:after, #brand.v2015 nav.panel:after, #brand.v2015 nav.panel .padding-close:after, #brand.v2015 nav.lang .padding:after, #brand.v2015 nav.app .padding:after, #brand.v2015 nav.app ul li:after, #brand.v2015 nav.app ul li a:after, #brand.v2015 nav.city .left:after, #brand.v2015 nav.city .left ul:after, #brand.v2015 nav.city .right:after, #brand.v2015.v2015-ajuntament-f nav.city .left ul li:last-child:after {
@@ -2081,7 +2081,7 @@
 #brand.v2015.v2015-ciutat-meet nav.city .left div h3 a {
   color: #cc9e31; }
 
-#brand.v2015.restyle.punt-bcn .wrapper .content .center {
+#brand.v2015.restyle.punt-cfu .wrapper .content .center {
   width: 85%; }
 
 /* Banner 2015 Ciutat - Media queries */
@@ -2284,7 +2284,7 @@
   #brand.v2015.v2015-ciutat-prehome.restyle header.navbar .wrapper {
     min-height: 43px; }
 
-  #brand.v2015.restyle.punt-bcn .wrapper .content .center {
+  #brand.v2015.restyle.punt-cfu .wrapper .content .center {
     width: 84%;
     margin-top: 0;
     margin-left: 0; } }
@@ -2488,7 +2488,7 @@
   #brand.v2015.v2015-ciutat-prehome.restyle header.navbar .wrapper {
     min-height: 57px; }
 
-  #brand.v2015.restyle.punt-bcn .wrapper .content .center {
+  #brand.v2015.restyle.punt-cfu .wrapper .content .center {
     width: 84%;
     margin-top: 0;
     margin-left: 0; } }
@@ -3203,7 +3203,7 @@
   #brand.v2015.v2015-ciutat-meet.lang-fr nav.city .left div p {
     margin-top: 6px; }
 
-  #brand.v2015.restyle.punt-bcn .wrapper .content .center {
+  #brand.v2015.restyle.punt-cfu .wrapper .content .center {
     width: 100%;
     margin-top: -38px;
     margin-left: -10px; } }
@@ -3447,7 +3447,7 @@
   #brand.v2015.lang-fr nav.app .padding .left div p {
     margin-top: 5px; }
 
-  #brand.v2015.restyle.punt-bcn .wrapper .content .center {
+  #brand.v2015.restyle.punt-cfu .wrapper .content .center {
     width: 100%;
     margin-top: -47px;
     margin-left: -10px; } }
@@ -5452,7 +5452,7 @@
 #brand-cultura.v2013.home-red #brand-cultura-wrapper .brand-border-right {
   bottom: -51px; }
 
-#bcn-apps-black-bg {
+#cfu-apps-black-bg {
   display: block;
   background-color: black;
   filter: alpha(opacity=60);
@@ -5465,7 +5465,7 @@
   bottom: 0;
   left: 0; }
 
-#bcn-apps-main {
+#cfu-apps-main {
   display: block;
   overflow: hidden;
   width: 320px;
@@ -5478,7 +5478,7 @@
   z-index: 100000001;
   border-radius: 6px;
   background-color: white; }
-#bcn-apps-main .bcn-apps-btn-close {
+#cfu-apps-main .cfu-apps-btn-close {
   top: 15px;
   left: 277px;
   width: 28px;
@@ -5487,7 +5487,7 @@
   opacity: 1;
   position: relative;
   display: block; }
-#bcn-apps-main .bcn-apps-title {
+#cfu-apps-main .cfu-apps-title {
   text-align: center;
   font-family: "Open Sans";
   font-weight: 700;
@@ -5500,16 +5500,16 @@
   opacity: 1;
   position: relative;
   top: 20px; }
-#bcn-apps-main .bcn-apps-store img {
+#cfu-apps-main .cfu-apps-store img {
   height: 64px; }
-#bcn-apps-main .bcn-app-thumb {
+#cfu-apps-main .cfu-app-thumb {
   text-align: center;
   display: block;
   position: relative;
   top: 35px; }
-#bcn-apps-main .bcn-app-thumb img {
+#cfu-apps-main .cfu-app-thumb img {
   height: 86px; }
-#bcn-apps-main .bcn-app-name {
+#cfu-apps-main .cfu-app-name {
   display: block;
   position: relative;
   top: 40px;
@@ -5522,28 +5522,28 @@
   letter-spacing: 0;
   color: #222226;
   opacity: 1; }
-#bcn-apps-main .bcn-app-store {
+#cfu-apps-main .cfu-app-store {
   position: relative;
   text-align: center;
   top: 80px; }
-#bcn-apps-main .bcn-app-store img {
+#cfu-apps-main .cfu-app-store img {
   height: 42px; }
 
-#bcn-ccwr.v2014.desktop {
+#cfu-ccwr.v2014.desktop {
   background-color: white;
   overflow: hidden; }
-#bcn-ccwr.v2014.desktop .bcn-cc-content {
+#cfu-ccwr.v2014.desktop .cfu-cc-content {
   background-color: white;
   padding: 0;
   overflow: hidden;
   font-family: "Source Sans Pro", sans-serif;
   max-width: 925px;
   margin: 0 auto; }
-#bcn-ccwr.v2014.desktop .bcn-cc-content .bcn-cc-info {
+#cfu-ccwr.v2014.desktop .cfu-cc-content .cfu-cc-info {
   width: 80%;
   float: left;
   margin: 8px 0; }
-#bcn-ccwr.v2014.desktop .bcn-cc-content .bcn-cc-info p {
+#cfu-ccwr.v2014.desktop .cfu-cc-content .cfu-cc-info p {
   font-family: "Source Sans Pro", sans-serif;
   color: #c60c30;
   font-size: 13px;
@@ -5552,22 +5552,22 @@
   letter-spacing: 0;
   margin: 0;
   font-weight: 400; }
-#bcn-ccwr.v2014.desktop .bcn-cc-content .bcn-cc-info p.bolded {
+#cfu-ccwr.v2014.desktop .cfu-cc-content .cfu-cc-info p.bolded {
   font-weight: 700; }
-#bcn-ccwr.v2014.desktop .bcn-cc-content .bcn-cc-info p.bolded i {
+#cfu-ccwr.v2014.desktop .cfu-cc-content .cfu-cc-info p.bolded i {
   font-style: oblique; }
-#bcn-ccwr.v2014.desktop .bcn-cc-content .bcn-cc-info p.bolded i a {
+#cfu-ccwr.v2014.desktop .cfu-cc-content .cfu-cc-info p.bolded i a {
   color: #c60c30;
   border: none; }
-#bcn-ccwr.v2014.desktop .bcn-cc-content .bcn-cc-info p.bolded i:hover {
+#cfu-ccwr.v2014.desktop .cfu-cc-content .cfu-cc-info p.bolded i:hover {
   text-decoration: underline; }
-#bcn-ccwr.v2014.desktop .bcn-cc-content .bcn-cc-buttons {
+#cfu-ccwr.v2014.desktop .cfu-cc-content .cfu-cc-buttons {
   float: left;
   text-align: right;
   min-height: 40px;
   width: 20%;
   padding: 8px 0; }
-#bcn-ccwr.v2014.desktop .bcn-cc-content .bcn-cc-buttons .bcn-cc-agree {
+#cfu-ccwr.v2014.desktop .cfu-cc-content .cfu-cc-buttons .cfu-cc-agree {
   font-family: Arial, Helvetica;
   margin: 8px 0 0 0;
   background-color: #c60c30;
@@ -5586,7 +5586,7 @@
   float: right;
   padding: 0 14px 0 15px;
   background: #c60c30; }
-#bcn-ccwr.v2014.desktop .bcn-cc-content .bcn-cc-buttons a.bcn-cc-more-info {
+#cfu-ccwr.v2014.desktop .cfu-cc-content .cfu-cc-buttons a.cfu-cc-more-info {
   color: black;
   font-size: 12px;
   text-decoration: underline;
@@ -5599,19 +5599,19 @@
   margin: 10px 0 0 12px;
   display: block; }
 
-#bcn-ccwr.v2014.mobile {
+#cfu-ccwr.v2014.mobile {
   background-color: white;
   overflow: hidden; }
-#bcn-ccwr.v2014.mobile .bcn-cc-content {
+#cfu-ccwr.v2014.mobile .cfu-cc-content {
   background-color: white;
   padding: 0;
   overflow: hidden;
   max-width: 925px;
   margin: 0 auto;
   width: 95%; }
-#bcn-ccwr.v2014.mobile .bcn-cc-content .bcn-cc-info {
+#cfu-ccwr.v2014.mobile .cfu-cc-content .cfu-cc-info {
   margin: 16px 0 0; }
-#bcn-ccwr.v2014.mobile .bcn-cc-content .bcn-cc-info p {
+#cfu-ccwr.v2014.mobile .cfu-cc-content .cfu-cc-info p {
   font-family: "Source Sans Pro", sans-serif;
   color: #c60c30;
   font-size: 10px;
@@ -5621,14 +5621,14 @@
   letter-spacing: 0px;
   text-align: center;
   font-weight: 400; }
-#bcn-ccwr.v2014.mobile .bcn-cc-content .bcn-cc-info p.bolded {
+#cfu-ccwr.v2014.mobile .cfu-cc-content .cfu-cc-info p.bolded {
   font-weight: 700; }
-#bcn-ccwr.v2014.mobile .bcn-cc-content .bcn-cc-buttons {
+#cfu-ccwr.v2014.mobile .cfu-cc-content .cfu-cc-buttons {
   text-align: center;
   min-height: 40px;
   width: 100%;
   padding: 10px 0 15px; }
-#bcn-ccwr.v2014.mobile .bcn-cc-content .bcn-cc-buttons .bcn-cc-agree {
+#cfu-ccwr.v2014.mobile .cfu-cc-content .cfu-cc-buttons .cfu-cc-agree {
   font-family: Arial, Helvetica;
   margin: 0;
   background-color: #c60c30;
@@ -5648,7 +5648,7 @@
   border: 0;
   padding: 0;
   background: #c60c30; }
-#bcn-ccwr.v2014.mobile .bcn-cc-content .bcn-cc-buttons a.bcn-cc-more-info {
+#cfu-ccwr.v2014.mobile .cfu-cc-content .cfu-cc-buttons a.cfu-cc-more-info {
   display: block;
   width: 160px;
   color: black;
@@ -5661,11 +5661,11 @@
   margin: 10px auto 0;
   line-height: 1em; }
 
-#bcnavis-main {
+#cfuavis-main {
   background-color: #c60c30;
   padding: 2px 0;
   display: block; }
-#bcnavis-main .bcnavis-content {
+#cfuavis-main .cfuavis-content {
   margin: 0 auto !important;
   max-width: 1080px;
   display: block;
@@ -5673,20 +5673,20 @@
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px; }
-#bcnavis-main .bcnavis-content p {
+#cfuavis-main .cfuavis-content p {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 13px !important;
   color: white !important;
   margin: 0 !important; }
 
-#bcn-canary.fullscreen #bcn-canary-main {
+#cfu-canary.fullscreen #cfu-canary-main {
   font-family: Arial, Helvetica, sans-serif;
   width: 100%;
   text-align: center;
   background-color: #343a40;
   position: relative;
   padding: 0.5rem 1rem; }
-#bcn-canary.fullscreen #bcn-canary-main .bcn-canary-description {
+#cfu-canary.fullscreen #cfu-canary-main .cfu-canary-description {
   font-size: 1rem;
   color: #e3f2fd;
   display: inline-block;
@@ -5695,9 +5695,9 @@
   font-weight: 400;
   line-height: 1.5;
   text-align: left; }
-#bcn-canary.fullscreen #bcn-canary-main .bcn-canary-description a {
+#cfu-canary.fullscreen #cfu-canary-main .cfu-canary-description a {
   color: #e3f2fd; }
-#bcn-canary.fullscreen #bcn-canary-main .bcn-canary-description a:hover {
+#cfu-canary.fullscreen #cfu-canary-main .cfu-canary-description a:hover {
   text-decoration: underline;
   color: white; }
 

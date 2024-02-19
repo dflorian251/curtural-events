@@ -57,7 +57,7 @@
                     ?>
                     <div class="redirect">
                         <h2 class="title">Η φόρμα συμπληρώθηκε επιτυχώς! Ευχαριστούμε για το ενδιαφέρον σας</h2>
-                        <a href="main.php" class="subtitle">Αρχική σελίδα</a>
+                        <a href="curtural-events.php" class="subtitle">Αρχική σελίδα</a>
                     </div>
 
                   

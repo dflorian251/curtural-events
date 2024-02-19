@@ -10,7 +10,7 @@
   font-display: block;
 }
 
-[class^="bcn-icon-"], [class*=" bcn-icon-"] {
+[class^="cfu-icon-"], [class*=" cfu-icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icoajuntament' !important;
   speak: never;
@@ -25,837 +25,837 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.bcn-icon-visites-ajuntament:before {
+.cfu-icon-visites-ajuntament:before {
   content: "\ea0b";
 }
-.bcn-icon-telefon:before {
+.cfu-icon-telefon:before {
   content: "\e9b6";
 }
-.bcn-icon-ajuntament:before {
+.cfu-icon-ajuntament:before {
   content: "\e900";
 }
-.bcn-icon-ajuntament-b:before {
+.cfu-icon-ajuntament-b:before {
   content: "\e986";
 }
-.bcn-icon-lameva:before {
+.cfu-icon-lameva:before {
   content: "\e901";
 }
-.bcn-icon-meet:before {
+.cfu-icon-meet:before {
   content: "\e902";
 }
-.bcn-icon-tramits:before {
+.cfu-icon-tramits:before {
   content: "\e903";
 }
-.bcn-icon-tramits-o:before {
+.cfu-icon-tramits-o:before {
   content: "\e904";
 }
-.bcn-icon-guia:before {
+.cfu-icon-guia:before {
   content: "\e905";
 }
-.bcn-icon-planol:before {
+.cfu-icon-planol:before {
   content: "\e906";
 }
-.bcn-icon-seu-electronica:before {
+.cfu-icon-seu-electronica:before {
   content: "\e907";
 }
-.bcn-icon-area-vb:before {
+.cfu-icon-area-vb:before {
   content: "\e908";
 }
-.bcn-icon-oficines-atencio-oac:before {
+.cfu-icon-oficines-atencio-oac:before {
   content: "\e909";
 }
-.bcn-icon-transparencia:before {
+.cfu-icon-transparencia:before {
   content: "\e90a";
 }
-.bcn-icon-hisenda:before {
+.cfu-icon-hisenda:before {
   content: "\e90d";
 }
-.bcn-icon-agraiments:before {
+.cfu-icon-agraiments:before {
   content: "\e90e";
 }
-.bcn-icon-biblioteca:before {
+.cfu-icon-biblioteca:before {
   content: "\e90f";
 }
-.bcn-icon-atencio-presencial:before {
+.cfu-icon-atencio-presencial:before {
   content: "\e91b";
 }
-.bcn-icon-atencio-linia:before {
+.cfu-icon-atencio-linia:before {
   content: "\e916";
 }
-.bcn-icon-atencio-telefonica:before {
+.cfu-icon-atencio-telefonica:before {
   content: "\e91e";
 }
-.bcn-icon-apps-bcn:before {
+.cfu-icon-apps-cfu:before {
   content: "\e987";
 }
-.bcn-icon-punts-registre:before {
+.cfu-icon-punts-registre:before {
   content: "\e918";
 }
-.bcn-icon-registre-telematic:before {
+.cfu-icon-registre-telematic:before {
   content: "\e91a";
 }
-.bcn-icon-oficines-especialitzades:before {
+.cfu-icon-oficines-especialitzades:before {
   content: "\e919";
 }
-.bcn-icon-grups-politics:before {
+.cfu-icon-grups-politics:before {
   content: "\e917";
 }
-.bcn-icon-govern-obert:before {
+.cfu-icon-govern-obert:before {
   content: "\e930";
 }
-.bcn-icon-portal-empreses:before {
+.cfu-icon-portal-empreses:before {
   content: "\e929";
 }
-.bcn-icon-portal-ciutadants:before {
+.cfu-icon-portal-ciutadants:before {
   content: "\e928";
 }
-.bcn-icon-arxiu-municipal:before {
+.cfu-icon-arxiu-municipal:before {
   content: "\e91c";
 }
-.bcn-icon-plenari:before {
+.cfu-icon-plenari:before {
   content: "\e91d";
 }
-.bcn-icon-blog:before {
+.cfu-icon-blog:before {
   content: "\e91f";
 }
-.bcn-icon-perfil-contractant:before {
+.cfu-icon-perfil-contractant:before {
   content: "\e92a";
 }
-.bcn-icon-carpeta-ciutada:before {
+.cfu-icon-carpeta-ciutada:before {
   content: "\e92b";
 }
-.bcn-icon-carpeta-empreses-entitats:before {
+.cfu-icon-carpeta-empreses-entitats:before {
   content: "\e92c";
 }
-.bcn-icon-carpeta-profesional:before {
+.cfu-icon-carpeta-profesional:before {
   content: "\e92d";
 }
-.bcn-icon-normativa:before {
+.cfu-icon-normativa:before {
   content: "\e92e";
 }
-.bcn-icon-subvencions:before {
+.cfu-icon-subvencions:before {
   content: "\e92f";
 }
-.bcn-icon-dades-obertes:before {
+.cfu-icon-dades-obertes:before {
   content: "\e932";
 }
-.bcn-icon-classificar-ok:before {
+.cfu-icon-classificar-ok:before {
   content: "\e931";
 }
-.bcn-icon-acces-obert:before {
+.cfu-icon-acces-obert:before {
   content: "\e90b";
 }
-.bcn-icon-altra-informacio:before {
+.cfu-icon-altra-informacio:before {
   content: "\e910";
 }
-.bcn-icon-ordenances-municipals:before {
+.cfu-icon-ordenances-municipals:before {
   content: "\e911";
 }
-.bcn-icon-carta-serveis:before {
+.cfu-icon-carta-serveis:before {
   content: "\e912";
 }
-.bcn-icon-oferta-publica:before {
+.cfu-icon-oferta-publica:before {
   content: "\e913";
 }
-.bcn-icon-taulell-edictes:before {
+.cfu-icon-taulell-edictes:before {
   content: "\e914";
 }
-.bcn-icon-publicacions-oficials:before {
+.cfu-icon-publicacions-oficials:before {
   content: "\e915";
 }
-.bcn-icon-estadistiques:before {
+.cfu-icon-estadistiques:before {
   content: "\e920";
 }
-.bcn-icon-premis:before {
+.cfu-icon-premis:before {
   content: "\e921";
 }
-.bcn-icon-calendari:before {
+.cfu-icon-calendari:before {
   content: "\e924";
 }
-.bcn-icon-queixes-suggeriments:before {
+.cfu-icon-queixes-suggeriments:before {
   content: "\e925";
 }
-.bcn-icon-butlleti:before {
+.cfu-icon-butlleti:before {
   content: "\e926";
 }
-.bcn-icon-quioscos:before {
+.cfu-icon-quioscos:before {
   content: "\e927";
 }
-.bcn-icon-mes-descarregat:before {
+.cfu-icon-mes-descarregat:before {
   content: "\e933";
 }
-.bcn-icon-descarregues:before {
+.cfu-icon-descarregues:before {
   content: "\e934";
 }
-.bcn-icon-ultimes-actualitzacions:before {
+.cfu-icon-ultimes-actualitzacions:before {
   content: "\e935";
 }
-.bcn-icon-ultimes-incorporacions:before {
+.cfu-icon-ultimes-incorporacions:before {
   content: "\e936";
 }
-.bcn-icon-preguntes-frequents-o:before {
+.cfu-icon-preguntes-frequents-o:before {
   content: "\e99c";
 }
-.bcn-icon-preguntes-frequents:before {
+.cfu-icon-preguntes-frequents:before {
   content: "\e937";
 }
-.bcn-icon-informacio-consultes-o:before {
+.cfu-icon-informacio-consultes-o:before {
   content: "\e99d";
 }
-.bcn-icon-informacio-consultes:before {
+.cfu-icon-informacio-consultes:before {
   content: "\e938";
 }
-.bcn-icon-urbanisme:before {
+.cfu-icon-urbanisme:before {
   content: "\e965";
 }
-.bcn-icon-informacio-tramits:before {
+.cfu-icon-informacio-tramits:before {
   content: "\e966";
 }
-.bcn-icon-manteniment-espai-urba:before {
+.cfu-icon-manteniment-espai-urba:before {
   content: "\e968";
 }
-.bcn-icon-serveis-funeraris:before {
+.cfu-icon-serveis-funeraris:before {
   content: "\e967";
 }
-.bcn-icon-recollida-neteja:before {
+.cfu-icon-recollida-neteja:before {
   content: "\e95b";
 }
-.bcn-icon-medi-ambient:before {
+.cfu-icon-medi-ambient:before {
   content: "\e955";
 }
-.bcn-icon-esports:before {
+.cfu-icon-esports:before {
   content: "\e956";
 }
-.bcn-icon-mobilitat:before {
+.cfu-icon-mobilitat:before {
   content: "\e957";
 }
-.bcn-icon-urbanisme-obres-habitatge:before {
+.cfu-icon-urbanisme-obres-habitatge:before {
   content: "\e95c";
 }
-.bcn-icon-civisme:before {
+.cfu-icon-civisme:before {
   content: "\e954";
 }
-.bcn-icon-prevencio-seguretat:before {
+.cfu-icon-prevencio-seguretat:before {
   content: "\e96a";
 }
-.bcn-icon-compra:before {
+.cfu-icon-compra:before {
   content: "\e95f";
 }
-.bcn-icon-promocio-economica:before {
+.cfu-icon-promocio-economica:before {
   content: "\e923";
 }
-.bcn-icon-cultura:before {
+.cfu-icon-cultura:before {
   content: "\e95e";
 }
-.bcn-icon-gestions-municipals:before {
+.cfu-icon-gestions-municipals:before {
   content: "\e958";
 }
-.bcn-icon-educacio:before {
+.cfu-icon-educacio:before {
   content: "\e959";
 }
-.bcn-icon-salut:before {
+.cfu-icon-salut:before {
   content: "\e960";
 }
-.bcn-icon-comer:before {
+.cfu-icon-comer:before {
   content: "\e961";
 }
-.bcn-icon-transports-publics:before {
+.cfu-icon-transports-publics:before {
   content: "\e95a";
 }
-.bcn-icon-oci:before {
+.cfu-icon-oci:before {
   content: "\e962";
 }
-.bcn-icon-habitatge:before {
+.cfu-icon-habitatge:before {
   content: "\e963";
 }
-.bcn-icon-activitats:before {
+.cfu-icon-activitats:before {
   content: "\e9af";
 }
-.bcn-icon-treball:before {
+.cfu-icon-treball:before {
   content: "\e9b0";
 }
-.bcn-icon-relacio-ciutada:before {
+.cfu-icon-relacio-ciutada:before {
   content: "\e9b5";
 }
-.bcn-icon-empresa:before {
+.cfu-icon-empresa:before {
   content: "\e9b1";
 }
-.bcn-icon-deu-barcelones:before {
+.cfu-icon-deu-barcelones:before {
   content: "\e988";
 }
-.bcn-icon-visitar-bcn:before {
+.cfu-icon-visitar-cfu:before {
   content: "\e9a1";
 }
-.bcn-icon-sectors-negoci:before {
+.cfu-icon-sectors-negoci:before {
   content: "\e9a7";
 }
-.bcn-icon-barris:before {
+.cfu-icon-barris:before {
   content: "\e9a0";
 }
-.bcn-icon-fabriques-creacio:before {
+.cfu-icon-fabriques-creacio:before {
   content: "\e9a3";
 }
-.bcn-icon-inversio:before {
+.cfu-icon-inversio:before {
   content: "\e9b2";
 }
-.bcn-icon-gastronomia:before {
+.cfu-icon-gastronomia:before {
   content: "\e9a5";
 }
-.bcn-icon-obres:before {
+.cfu-icon-obres:before {
   content: "\e9b4";
 }
-.bcn-icon-turisme-sostenible:before {
+.cfu-icon-turisme-sostenible:before {
   content: "\e9a4";
 }
-.bcn-icon-grans-esdeveniments:before {
+.cfu-icon-grans-esdeveniments:before {
   content: "\e9a6";
 }
-.bcn-icon-estudis:before {
+.cfu-icon-estudis:before {
   content: "\e9a2";
 }
-.bcn-icon-alcalde:before {
+.cfu-icon-alcalde:before {
   content: "\e99f";
 }
-.bcn-icon-parcs:before {
+.cfu-icon-parcs:before {
   content: "\e9a9";
 }
-.bcn-icon-padro:before {
+.cfu-icon-padro:before {
   content: "\e9a8";
 }
-.bcn-icon-estudiants-estrangers:before {
+.cfu-icon-estudiants-estrangers:before {
   content: "\e9b3";
 }
-.bcn-icon-participacio:before {
+.cfu-icon-participacio:before {
   content: "\e9aa";
 }
-.bcn-icon-families:before {
+.cfu-icon-families:before {
   content: "\e99e";
 }
-.bcn-icon-recerca-innovacio:before {
+.cfu-icon-recerca-innovacio:before {
   content: "\e9ac";
 }
-.bcn-icon-projectes-estrategics:before {
+.cfu-icon-projectes-estrategics:before {
   content: "\e9ab";
 }
-.bcn-icon-nadal:before {
+.cfu-icon-nadal:before {
   content: "\e964";
 }
-.bcn-icon-whatsapp:before {
+.cfu-icon-whatsapp:before {
   content: "\e94d";
 }
-.bcn-icon-twitter:before {
+.cfu-icon-twitter:before {
   content: "\e94c";
 }
-.bcn-icon-x:before {
+.cfu-icon-x:before {
   content: "\ea15";
 }
-.bcn-icon-linkedin:before {
+.cfu-icon-linkedin:before {
   content: "\e94e";
 }
-.bcn-icon-facebook:before {
+.cfu-icon-facebook:before {
   content: "\e946";
 }
-.bcn-icon-instagram:before {
+.cfu-icon-instagram:before {
   content: "\e948";
 }
-.bcn-icon-youtube:before {
+.cfu-icon-youtube:before {
   content: "\e947";
 }
-.bcn-icon-flickr:before {
+.cfu-icon-flickr:before {
   content: "\e949";
 }
-.bcn-icon-periscope:before {
+.cfu-icon-periscope:before {
   content: "\e94a";
 }
-.bcn-icon-xarxes-socials:before {
+.cfu-icon-xarxes-socials:before {
   content: "\e952";
 }
-.bcn-icon-comparteix:before {
+.cfu-icon-comparteix:before {
   content: "\e950";
 }
-.bcn-icon-telegram:before {
+.cfu-icon-telegram:before {
   content: "\e945";
 }
-.bcn-icon-tumblr:before {
+.cfu-icon-tumblr:before {
   content: "\e94b";
 }
-.bcn-icon-web:before {
+.cfu-icon-web:before {
   content: "\e953";
 }
-.bcn-icon-rss:before {
+.cfu-icon-rss:before {
   content: "\e94f";
 }
-.bcn-icon-cerca:before {
+.cfu-icon-cerca:before {
   content: "\e939";
 }
-.bcn-icon-menu-drecera:before {
+.cfu-icon-menu-drecera:before {
   content: "\e9ae";
 }
-.bcn-icon-idioma:before {
+.cfu-icon-idioma:before {
   content: "\e93a";
 }
-.bcn-icon-satelit:before {
+.cfu-icon-satelit:before {
   content: "\e93f";
 }
-.bcn-icon-punt-mapa:before {
+.cfu-icon-punt-mapa:before {
   content: "\e940";
 }
-.bcn-icon-bruixola:before {
+.cfu-icon-bruixola:before {
   content: "\e922";
 }
-.bcn-icon-descarrega:before {
+.cfu-icon-descarrega:before {
   content: "\e9ad";
 }
-.bcn-icon-accessibilitat:before {
+.cfu-icon-accessibilitat:before {
   content: "\e90c";
 }
-.bcn-icon-ubicacio:before {
+.cfu-icon-ubicacio:before {
   content: "\e941";
 }
-.bcn-icon-contrast:before {
+.cfu-icon-contrast:before {
   content: "\e95d";
 }
-.bcn-icon-finestra-nova:before {
+.cfu-icon-finestra-nova:before {
   content: "\e93d";
 }
-.bcn-icon-favorits:before {
+.cfu-icon-favorits:before {
   content: "\e93c";
 }
-.bcn-icon-etiqueta:before {
+.cfu-icon-etiqueta:before {
   content: "\e93b";
 }
-.bcn-icon-correu-email:before {
+.cfu-icon-correu-email:before {
   content: "\e951";
 }
-.bcn-icon-adjunt:before {
+.cfu-icon-adjunt:before {
   content: "\e942";
 }
-.bcn-icon-opcions:before {
+.cfu-icon-opcions:before {
   content: "\e93e";
 }
-.bcn-icon-arxiu-pdf:before {
+.cfu-icon-arxiu-pdf:before {
   content: "\e944";
 }
-.bcn-icon-arxiu:before {
+.cfu-icon-arxiu:before {
   content: "\e943";
 }
-.bcn-icon-llenguatge:before {
+.cfu-icon-llenguatge:before {
   content: "\e96e";
 }
-.bcn-icon-titols:before {
+.cfu-icon-titols:before {
   content: "\e96f";
 }
-.bcn-icon-audiovisuals:before {
+.cfu-icon-audiovisuals:before {
   content: "\e96c";
 }
-.bcn-icon-reproductor-audiovisual:before {
+.cfu-icon-reproductor-audiovisual:before {
   content: "\e96b";
 }
-.bcn-icon-distraccions:before {
+.cfu-icon-distraccions:before {
   content: "\e970";
 }
-.bcn-icon-salt-contingut:before {
+.cfu-icon-salt-contingut:before {
   content: "\e971";
 }
-.bcn-icon-multinavegador:before {
+.cfu-icon-multinavegador:before {
   content: "\e972";
 }
-.bcn-icon-idioma-accessibilitat:before {
+.cfu-icon-idioma-accessibilitat:before {
   content: "\e973";
 }
-.bcn-icon-navegacio-coherent:before {
+.cfu-icon-navegacio-coherent:before {
   content: "\e974";
 }
-.bcn-icon-imatge:before {
+.cfu-icon-imatge:before {
   content: "\e975";
 }
-.bcn-icon-formularis:before {
+.cfu-icon-formularis:before {
   content: "\e976";
 }
-.bcn-icon-estructura-encap:before {
+.cfu-icon-estructura-encap:before {
   content: "\e977";
 }
-.bcn-icon-tamany-text:before {
+.cfu-icon-tamany-text:before {
   content: "\e978";
 }
-.bcn-icon-expandir-baix-dreta:before {
+.cfu-icon-expandir-baix-dreta:before {
   content: "\e991";
 }
-.bcn-icon-expandir-baix-esquerra:before {
+.cfu-icon-expandir-baix-esquerra:before {
   content: "\e992";
 }
-.bcn-icon-expandir-dalt-dreta:before {
+.cfu-icon-expandir-dalt-dreta:before {
   content: "\e993";
 }
-.bcn-icon-expandir-dalt-esquerra:before {
+.cfu-icon-expandir-dalt-esquerra:before {
   content: "\e994";
 }
-.bcn-icon-minimitzar:before {
+.cfu-icon-minimitzar:before {
   content: "\e995";
 }
-.bcn-icon-dreta-bold:before {
+.cfu-icon-dreta-bold:before {
   content: "\e998";
 }
-.bcn-icon-dreta-medium:before {
+.cfu-icon-dreta-medium:before {
   content: "\e999";
 }
-.bcn-icon-dreta-light:before {
+.cfu-icon-dreta-light:before {
   content: "\e99a";
 }
-.bcn-icon-esquerra-bold:before {
+.cfu-icon-esquerra-bold:before {
   content: "\e99b";
 }
-.bcn-icon-esquerra-medium:before {
+.cfu-icon-esquerra-medium:before {
   content: "\e9b7";
 }
-.bcn-icon-esquerra-light:before {
+.cfu-icon-esquerra-light:before {
   content: "\e9b8";
 }
-.bcn-icon-baix-bold:before {
+.cfu-icon-baix-bold:before {
   content: "\e9b9";
 }
-.bcn-icon-baix-medium:before {
+.cfu-icon-baix-medium:before {
   content: "\e9ba";
 }
-.bcn-icon-baix-light:before {
+.cfu-icon-baix-light:before {
   content: "\e9bb";
 }
-.bcn-icon-dalt-bold:before {
+.cfu-icon-dalt-bold:before {
   content: "\e9bc";
 }
-.bcn-icon-dalt-medium:before {
+.cfu-icon-dalt-medium:before {
   content: "\e9bd";
 }
-.bcn-icon-dalt-light:before {
+.cfu-icon-dalt-light:before {
   content: "\e9be";
 }
-.bcn-icon-mes-cercle:before {
+.cfu-icon-mes-cercle:before {
   content: "\e9bf";
 }
-.bcn-icon-mes-cercle-o:before {
+.cfu-icon-mes-cercle-o:before {
   content: "\e9c0";
 }
-.bcn-icon-mes-bold:before {
+.cfu-icon-mes-bold:before {
   content: "\e9c1";
 }
-.bcn-icon-mes-medium:before {
+.cfu-icon-mes-medium:before {
   content: "\e9c2";
 }
-.bcn-icon-mes-light:before {
+.cfu-icon-mes-light:before {
   content: "\e9c3";
 }
-.bcn-icon-menys-bold:before {
+.cfu-icon-menys-bold:before {
   content: "\e9c4";
 }
-.bcn-icon-menys-medium:before {
+.cfu-icon-menys-medium:before {
   content: "\e9c5";
 }
-.bcn-icon-menys-light:before {
+.cfu-icon-menys-light:before {
   content: "\e9c6";
 }
-.bcn-icon-ok-bold:before {
+.cfu-icon-ok-bold:before {
   content: "\e9c7";
 }
-.bcn-icon-ok-medium:before {
+.cfu-icon-ok-medium:before {
   content: "\e9c8";
 }
-.bcn-icon-ok-light:before {
+.cfu-icon-ok-light:before {
   content: "\e9c9";
 }
-.bcn-icon-tancar-bold:before {
+.cfu-icon-tancar-bold:before {
   content: "\e9ca";
 }
-.bcn-icon-tancar-medium:before {
+.cfu-icon-tancar-medium:before {
   content: "\e9cb";
 }
-.bcn-icon-tancar-light:before {
+.cfu-icon-tancar-light:before {
   content: "\e9cc";
 }
-.bcn-icon-maximitzar:before {
+.cfu-icon-maximitzar:before {
   content: "\e996";
 }
-.bcn-icon-casa:before {
+.cfu-icon-casa:before {
   content: "\e979";
 }
-.bcn-icon-menu:before {
+.cfu-icon-menu:before {
   content: "\e997";
 }
-.bcn-icon-ultim-dreta-bold:before {
+.cfu-icon-ultim-dreta-bold:before {
   content: "\e97a";
 }
-.bcn-icon-ultim-dreta-medium:before {
+.cfu-icon-ultim-dreta-medium:before {
   content: "\e97b";
 }
-.bcn-icon-primer-esquerra-bold:before {
+.cfu-icon-primer-esquerra-bold:before {
   content: "\e97c";
 }
-.bcn-icon-primer-esquerra-medium:before {
+.cfu-icon-primer-esquerra-medium:before {
   content: "\e97d";
 }
-.bcn-icon-amplia:before {
+.cfu-icon-amplia:before {
   content: "\e97e";
 }
-.bcn-icon-redueix:before {
+.cfu-icon-redueix:before {
   content: "\e97f";
 }
-.bcn-icon-reprodueix:before {
+.cfu-icon-reprodueix:before {
   content: "\e980";
 }
-.bcn-icon-pause:before {
+.cfu-icon-pause:before {
   content: "\e981";
 }
-.bcn-icon-isuu:before {
+.cfu-icon-isuu:before {
   content: "\e982";
 }
-.bcn-icon-taules-llistes:before {
+.cfu-icon-taules-llistes:before {
   content: "\e983";
 }
-.bcn-icon-bustia-etica:before {
+.cfu-icon-bustia-etica:before {
   content: "\e984";
 }
-.bcn-icon-imprimir:before {
+.cfu-icon-imprimir:before {
   content: "\e985";
 }
-.bcn-icon-ordenances-fiscals:before {
+.cfu-icon-ordenances-fiscals:before {
   content: "\e989";
 }
-.bcn-icon-serveis-socials:before {
+.cfu-icon-serveis-socials:before {
   content: "\e98a";
 }
-.bcn-icon-bombers:before {
+.cfu-icon-bombers:before {
   content: "\e98b";
 }
-.bcn-icon-telefons-emergencies:before {
+.cfu-icon-telefons-emergencies:before {
   content: "\e98c";
 }
-.bcn-icon-mobil:before {
+.cfu-icon-mobil:before {
   content: "\e98d";
 }
-.bcn-icon-infancia:before {
+.cfu-icon-infancia:before {
   content: "\e98e";
 }
-.bcn-icon-gent-gran:before {
+.cfu-icon-gent-gran:before {
   content: "\e98f";
 }
-.bcn-icon-dependencia:before {
+.cfu-icon-dependencia:before {
   content: "\e990";
 }
-.bcn-icon-convivencia:before {
+.cfu-icon-convivencia:before {
   content: "\e9cd";
 }
-.bcn-icon-dona:before {
+.cfu-icon-dona:before {
   content: "\e9ce";
 }
-.bcn-icon-discapacitat:before {
+.cfu-icon-discapacitat:before {
   content: "\e9cf";
 }
-.bcn-icon-joventut:before {
+.cfu-icon-joventut:before {
   content: "\e9d0";
 }
-.bcn-icon-vulnerable:before {
+.cfu-icon-vulnerable:before {
   content: "\e9d1";
 }
-.bcn-icon-agenda:before {
+.cfu-icon-agenda:before {
   content: "\e9d2";
 }
-.bcn-icon-eficiencia-energetica:before {
+.cfu-icon-eficiencia-energetica:before {
   content: "\e9d3";
 }
-.bcn-icon-consumidor:before {
+.cfu-icon-consumidor:before {
   content: "\e9d4";
 }
-.bcn-icon-enllacos:before {
+.cfu-icon-enllacos:before {
   content: "\e9d5";
 }
-.bcn-icon-noticies:before {
+.cfu-icon-noticies:before {
   content: "\e9d6";
 }
-.bcn-icon-llista:before {
+.cfu-icon-llista:before {
   content: "\e9d7";
 }
-.bcn-icon-info-actualitzada:before {
+.cfu-icon-info-actualitzada:before {
   content: "\e9d8";
 }
-.bcn-icon-marc-legal:before {
+.cfu-icon-marc-legal:before {
   content: "\e9d9";
 }
-.bcn-icon-proteccio-dades:before {
+.cfu-icon-proteccio-dades:before {
   content: "\e9da";
 }
-.bcn-icon-galetes:before {
+.cfu-icon-galetes:before {
   content: "\e9e5";
 }
-.bcn-icon-difondre:before {
+.cfu-icon-difondre:before {
   content: "\e9e6";
 }
-.bcn-icon-copyright:before {
+.cfu-icon-copyright:before {
   content: "\e9db";
 }
-.bcn-icon-comshiva:before {
+.cfu-icon-comshiva:before {
   content: "\e9dc";
 }
-.bcn-icon-pressupost:before {
+.cfu-icon-pressupost:before {
   content: "\e9dd";
 }
-.bcn-icon-arxiu-audio:before {
+.cfu-icon-arxiu-audio:before {
   content: "\e9de";
 }
-.bcn-icon-dossier:before {
+.cfu-icon-dossier:before {
   content: "\e9df";
 }
-.bcn-icon-microfon:before {
+.cfu-icon-microfon:before {
   content: "\e9e0";
 }
-.bcn-icon-retransmissio:before {
+.cfu-icon-retransmissio:before {
   content: "\e9e1";
 }
-.bcn-icon-informacio:before {
+.cfu-icon-informacio:before {
   content: "\e9e2";
 }
-.bcn-icon-feminismes:before {
+.cfu-icon-feminismes:before {
   content: "\e9e3";
 }
-.bcn-icon-diversitat:before {
+.cfu-icon-diversitat:before {
   content: "\e9e4";
 }
-.bcn-icon-territori:before {
+.cfu-icon-territori:before {
   content: "\e9e7";
 }
-.bcn-icon-vimeo:before {
+.cfu-icon-vimeo:before {
   content: "\e9e8";
 }
-.bcn-icon-administracio:before {
+.cfu-icon-administracio:before {
   content: "\e9e9";
 }
-.bcn-icon-allotjament:before {
+.cfu-icon-allotjament:before {
   content: "\e9ea";
 }
-.bcn-icon-animals:before {
+.cfu-icon-animals:before {
   content: "\e9eb";
 }
-.bcn-icon-associacions:before {
+.cfu-icon-associacions:before {
   content: "\e9ec";
 }
-.bcn-icon-companyies_serveis:before {
+.cfu-icon-companyies_serveis:before {
   content: "\e9ed";
 }
-.bcn-icon-religio:before {
+.cfu-icon-religio:before {
   content: "\e9ee";
 }
-.bcn-icon-imatge-text:before {
+.cfu-icon-imatge-text:before {
   content: "\e969";
 }
-.bcn-icon-cerca-arbre-jerarquic:before {
+.cfu-icon-cerca-arbre-jerarquic:before {
   content: "\e96d";
 }
-.bcn-icon-cerca-dependencia:before {
+.cfu-icon-cerca-dependencia:before {
   content: "\e9ef";
 }
-.bcn-icon-cerca-persona:before {
+.cfu-icon-cerca-persona:before {
   content: "\e9f0";
 }
-.bcn-icon-a-peu:before {
+.cfu-icon-a-peu:before {
   content: "\e9f1";
 }
-.bcn-icon-bicicleta:before {
+.cfu-icon-bicicleta:before {
   content: "\e9f2";
 }
-.bcn-icon-cotxe:before {
+.cfu-icon-cotxe:before {
   content: "\e9f3";
 }
-.bcn-icon-mercaderies:before {
+.cfu-icon-mercaderies:before {
   content: "\e9f4";
 }
-.bcn-icon-metro:before {
+.cfu-icon-metro:before {
   content: "\e9f5";
 }
-.bcn-icon-moto:before {
+.cfu-icon-moto:before {
   content: "\e9f6";
 }
-.bcn-icon-targetes-transport:before {
+.cfu-icon-targetes-transport:before {
   content: "\e9f7";
 }
-.bcn-icon-proces-tramit:before {
+.cfu-icon-proces-tramit:before {
   content: "\e9f8";
 }
-.bcn-icon-filtres:before {
+.cfu-icon-filtres:before {
   content: "\e9f9";
 }
-.bcn-icon-espai-personal:before {
+.cfu-icon-espai-personal:before {
   content: "\e9fa";
 }
-.bcn-icon-dades-personals-fiscals:before {
+.cfu-icon-dades-personals-fiscals:before {
   content: "\e9fb";
 }
-.bcn-icon-multes:before {
+.cfu-icon-multes:before {
   content: "\e9fc";
 }
-.bcn-icon-casaments:before {
+.cfu-icon-casaments:before {
   content: "\e9fd";
 }
-.bcn-icon-esquerra-bold2:before {
+.cfu-icon-esquerra-bold2:before {
   content: "\e9fe";
 }
-.bcn-icon-dreta-bold2:before {
+.cfu-icon-dreta-bold2:before {
   content: "\e9ff";
 }
-.bcn-icon-rellotge:before {
+.cfu-icon-rellotge:before {
   content: "\ea00";
 }
-.bcn-icon-rellotge-bold:before {
+.cfu-icon-rellotge-bold:before {
   content: "\ea01";
 }
-.bcn-icon-favorits-light:before {
+.cfu-icon-favorits-light:before {
   content: "\ea02";
 }
-.bcn-icon-mapa:before {
+.cfu-icon-mapa:before {
   content: "\ea03";
 }
-.bcn-icon-platja:before {
+.cfu-icon-platja:before {
   content: "\ea04";
 }
-.bcn-icon-multidispositiu:before {
+.cfu-icon-multidispositiu:before {
   content: "\ea05";
 }
-.bcn-icon-controls:before {
+.cfu-icon-controls:before {
   content: "\ea06";
 }
-.bcn-icon-teclat:before {
+.cfu-icon-teclat:before {
   content: "\ea07";
 }
-.bcn-icon-codi:before {
+.cfu-icon-codi:before {
   content: "\ea08";
 }
-.bcn-icon-tancasessio:before {
+.cfu-icon-tancasessio:before {
   content: "\ea09";
 }
-.bcn-icon-videotrucada:before {
+.cfu-icon-videotrucada:before {
   content: "\ea0a";
 }
-.bcn-icon-reserves:before {
+.cfu-icon-reserves:before {
   content: "\ea0c";
 }
-.bcn-icon-alerta:before {
+.cfu-icon-alerta:before {
   content: "\ea0d";
 }
-.bcn-icon-campana:before {
+.cfu-icon-campana:before {
   content: "\ea0e";
 }
-.bcn-icon-cor:before {
+.cfu-icon-cor:before {
   content: "\ea0f";
 }
-.bcn-icon-identificacio:before {
+.cfu-icon-identificacio:before {
   content: "\ea10";
 }
-.bcn-icon-tiktok:before {
+.cfu-icon-tiktok:before {
   content: "\ea11";
 }
-.bcn-icon-mastodon:before {
+.cfu-icon-mastodon:before {
   content: "\ea12";
 }
-.bcn-icon-regla:before {
+.cfu-icon-regla:before {
   content: "\ea13";
 }
-.bcn-icon-clau:before {
+.cfu-icon-clau:before {
   content: "\ea14";
 }

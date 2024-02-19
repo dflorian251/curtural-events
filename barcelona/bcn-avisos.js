@@ -137,7 +137,7 @@ Avisos.prototype.markup = function(data) {
     titol.innerText = data.avisos[this._lang].titol;
 
     var left = document.createElement('div');
-    left.className += ' bcn-avisos-titol';
+    left.className += ' cfu-avisos-titol';
     left.appendChild(icona);
     left.appendChild(titol);
 
@@ -145,17 +145,17 @@ Avisos.prototype.markup = function(data) {
     text.innerHTML = data.avisos[this._lang].missatge;
 
     var right = document.createElement('div');
-    right.className += 'bcn-avisos-text';
+    right.className += 'cfu-avisos-text';
     right.appendChild(text);
 
     var arrowright = document.createElement('span');
-    arrowright.className += 'bcn-icon-dreta-bold';
+    arrowright.className += 'cfu-icon-dreta-bold';
 
     var arrowbottom = document.createElement('span');
-    arrowbottom.className += 'bcn-icon-baix-light';
+    arrowbottom.className += 'cfu-icon-baix-light';
 
     var avis = document.createElement('div');
-    avis.className += ' bcn-avis';
+    avis.className += ' cfu-avis';
     avis.appendChild(left);
     avis.appendChild(right);
     avis.appendChild(arrowright);
@@ -170,7 +170,7 @@ Avisos.prototype.markup = function(data) {
     row.appendChild(col);
 
     var container = document.createElement('div');
-    container.className += (this._bootstrap) ? ' container' : ' bcn-avisos-grid';
+    container.className += (this._bootstrap) ? ' container' : ' cfu-avisos-grid';
     container.appendChild(row);
 
     var avisos;
@@ -180,8 +180,8 @@ Avisos.prototype.markup = function(data) {
         avisos.target = '_blank';
         var analitycs = function(e) {
             e.preventDefault();
-            if (window.bcn) {
-                /*bcn.statistics({
+            if (window.cfu) {
+                /*cfu.statistics({
                     keys: ['UA-36589170-45'],
                     tgm: true,
                     track: [
@@ -208,7 +208,7 @@ Avisos.prototype.markup = function(data) {
         avis.removeChild(arrowright);
     }
     avisos.id = 'avisos';
-    avisos.className += ' bcn-avisos'
+    avisos.className += ' cfu-avisos'
     if (data.negatiu) {
         avisos.className += ' negatiu';
     }
@@ -219,7 +219,7 @@ Avisos.prototype.markup = function(data) {
     event.initEvent('avisos-ready', true, true);
     avisos.dispatchEvent(event);
     if (document.documentMode <= 9) {
-        avisos.className += ' bcn-ie9';
+        avisos.className += ' cfu-ie9';
         return;
     }
     this.render(data.avisos[this._lang].missatge, right);
@@ -249,51 +249,51 @@ Avisos.prototype.mobile = function(container) {
     //console.log(container.clientHeight);
     if (container.clientHeight > 36) {
         container.style.height = container.clientHeight + 'px';
-        container.className += ' bcn-clamp';
-        document.querySelector('.bcn-avisos .bcn-icon-baix-light')
+        container.className += ' cfu-clamp';
+        document.querySelector('.cfu-avisos .cfu-icon-baix-light')
             .addEventListener('click', function(e) {
                 e.stopPropagation();
                 e.preventDefault();
                 if (container.classList) {
-                    container.classList.toggle('bcn-clamp');
+                    container.classList.toggle('cfu-clamp');
                 } else {
                     //ie9
                     var classes = container.className.split(" ");
-                    var i = container.indexOf('bcn-clamp');
+                    var i = container.indexOf('cfu-clamp');
 
                     if (i >= 0) {
                         classes.splice(i, 1);
                     } else {
-                        classes.push('bcn-clamp');
+                        classes.push('cfu-clamp');
                         container.className = classes.join(" ");
                     }
                 }
                 if (this.classList) {
-                    this.classList.toggle('bcn-rotate');
+                    this.classList.toggle('cfu-rotate');
                 } else {
                     //ie9
                     var classes = this.className.split(" ");
-                    var i = container.indexOf('bcn-rotate');
+                    var i = container.indexOf('cfu-rotate');
 
                     if (i >= 0) {
                         classes.splice(i, 1);
                     } else {
-                        classes.push('bcn-rotate');
+                        classes.push('cfu-rotate');
                         this.className = classes.join(" ");
                     }
                 }
             });
     } else {
-        document.querySelector('.bcn-avisos .bcn-icon-baix-light').style.display = 'none';
+        document.querySelector('.cfu-avisos .cfu-icon-baix-light').style.display = 'none';
     }
 }
 
 Avisos.prototype.animate = function(container) {
     var textNode = container.firstElementChild;
-    textNode.className += ' bcn-fixed';
+    textNode.className += ' cfu-fixed';
     var clon1 = textNode.cloneNode(true);
     var clon2 = textNode.cloneNode(true);
-    textNode.className += ' bcn-partial';
+    textNode.className += ' cfu-partial';
     textNode.addEventListener('animationstart', function() {
         window.setTimeout(function() {
             container.appendChild(clon1);
@@ -308,7 +308,7 @@ Avisos.prototype.animate = function(container) {
             }
         }
     });
-    clon1.className += ' clon clon-u bcn-slide';
+    clon1.className += ' clon clon-u cfu-slide';
     clon1.addEventListener('animationstart', function() {
         window.setTimeout(function() {
             container.appendChild(clon2);
@@ -323,7 +323,7 @@ Avisos.prototype.animate = function(container) {
             }
         }
     });
-    clon2.className += ' clon clon-dos bcn-slide';
+    clon2.className += ' clon clon-dos cfu-slide';
     clon2.addEventListener('animationstart', function() {
         window.setTimeout(function() {
             container.appendChild(clon1);
