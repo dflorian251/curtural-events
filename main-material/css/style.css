@@ -20,7 +20,7 @@ html {
 body {
 	position: relative;
 	height: 100%;
-	font-size: 14px;
+	font-size: 1rem;
 	color: #363940;
 }
 body .body {
@@ -52,7 +52,7 @@ body .body {
 
 /* Begin Fonts */
 body {
-	font-family: 'Roborto', Helvetica, Arial, sans-serif;
+	font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
@@ -650,35 +650,3 @@ p {
 	padding: 0 0 0 0;
 }
 
-.header {
-	height: 3rem;
-	margin: 0;
-    padding: 0 50px 0 50px;
-	border: none;
-    display: flex;
-    align-items: center;
-}
-
-.header ul {
-    display: flex; 
-    align-items: center;
-    justify-content: space-between;
-    flex: 1;
-}
-
-.header .logo {
-    font-size: 1.3rem;
-}
-
-ul {
-    text-decoration: none;
-}
-
-#languageSelector {
-    border: none;
-    background-color: transparent;
-}
-
-a, a:hover {
-    color: black;
-}

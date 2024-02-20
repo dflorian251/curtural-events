@@ -1,16 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+
+
 .header {
+	font-size: 1.5rem;
+	height: 4rem;
 	margin: 0;
-    padding: 0 50px 0 50px;
+    padding: 0;
 	border: none;
     display: flex;
     align-items: center;
+	
 }
 
 .header ul {
     display: flex; 
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-between;
     flex: 1;
+}
+
+.header .language_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header .logo {
@@ -19,6 +43,7 @@
 
 ul {
     text-decoration: none;
+    
 }
 
 #languageSelector {
@@ -26,6 +51,17 @@ ul {
     background-color: transparent;
 }
 
-a {
+.municipality_container {
+    display: flex;
+    justify-content: center;
+}
+
+.header img {
+    max-width: 25%;
+    max-height: 25%
+}
+
+a, a:hover {
     color: black;
+	font-size: 2rem;
 }

@@ -19,6 +19,7 @@ if (isset($_GET['id'])) {
 <html>
     <head>
         <link rel="stylesheet" href="css/post_style.css">   
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
         <script src="https://kit.fontawesome.com/c4f6644410.js" crossorigin="anonymous"></script>
     </head>
     <body>
