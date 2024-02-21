@@ -10,9 +10,6 @@ html {
     box-sizing: inherit;
 }
 
-
-
-
 .header {
 	font-size: 1.5rem;
 	height: 4rem;
@@ -31,6 +28,10 @@ html {
     flex: 1;
 }
 
+ul li {
+    flex: 1;
+}
+
 .header .language_container {
     display: flex;
     justify-content: center;
@@ -43,7 +44,6 @@ html {
 
 ul {
     text-decoration: none;
-    
 }
 
 #languageSelector {
@@ -56,12 +56,17 @@ ul {
     justify-content: center;
 }
 
-.header img {
-    max-width: 25%;
-    max-height: 25%
+#municipality_logo {
+    max-width: 10%;
+    max-height: 10%
 }
 
-a, a:hover {
+a:hover {
     color: black;
+
+}
+
+a {
+    color: black !important;
 	font-size: 2rem;
 }

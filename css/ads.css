@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.in-article-card {
+    border: black 1px solid;
+    border-radius: 8px;
+    box-shadow: 0 .5rem 1.2rem rgba(0,0,0,.2);
+    padding: .75rem 1.25rem;
+    display: flex;
+
+    flex-direction: column;
+    align-items: start;
+}
+
+.in-article-card time {
+    font-size: 1.5rem;
+    flex: 1;
+}
+
+.in-article-card h3 {
+    margin: 0 0 .5rem !important;
+    flex: 2;
+}
+
+.ad-title {
+    font-size: 3rem;
+}
+
+.in-article-card a {
+    text-decoration: none;
+}
+
+.tags {
+    line-height: 1;
+    margin: 0 0 .5rem;
+    flex: 1;
+    display: flex;
+    gap: 2rem;
+}
+
+.tag {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: #ff4949 !important;
+}
