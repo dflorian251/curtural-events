@@ -1,3 +1,17 @@
+<?php
+require 'conn.php' ;
+
+$query = "SELECT * FROM advert;";
+
+$stmt = $conn->prepare($query); 
+// EXECUTING THE QUERY 
+$stmt->execute(); 
+$r = $stmt->setFetchMode(PDO::FETCH_ASSOC); 
+// FETCHING DATA FROM DATABASE 
+$result = $stmt->fetchAll(); 
+?>
+
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -83,20 +97,27 @@
             </div>
         </div>
 
-        <article class="in-article-card article" id="mini-post-21059">
-            <time datetime="2019-10-03" title="Originally published Apr 8, 2013">
-                Oct 3, 2019  
-            </time>
-            <h3>
-                <a href="https://css-tricks.com/adaptive-photo-layout-with-flexbox/" class="ad-title">
-                    Adaptive Photo Layout with Flexbox
-                </a>
-            </h3>
-            <div class="tags">
-                <a href="https://css-tricks.com/tag/flexbox/" rel="tag" class="tag">flexbox</a>
-                <a href="https://css-tricks.com/tag/layout/" rel="tag" class="tag">layout</a>    
-            </div>
-        </article>
+        <ul class="row adverts">
+            <?php foreach ($result as $row){ ?>
+            <li>
+                <article class="in-article-card article" id="mini-post-21059">
+                    <time datetime="2019-10-03" title="Originally published Apr 8, 2013">
+                        Oct 3, 2019  
+                    </time>
+                    <h3>
+                        <a href="https://css-tricks.com/adaptive-photo-layout-with-flexbox/" class="ad-title">
+                            <?php echo $row["advert_title"]?>
+                        </a>
+                    </h3>
+                    <div class="tags">
+                        <a href="https://css-tricks.com/tag/flexbox/" rel="tag" class="tag">flexbox</a>
+                        <a href="https://css-tricks.com/tag/layout/" rel="tag" class="tag">layout</a>    
+                    </div>
+                </article>
+            <?php }?>
+            </li>
+        </ul>
+
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     </body>
