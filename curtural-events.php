@@ -82,7 +82,7 @@ $result = $stmt->fetchAll();
                     <!-- AGGELIES -->
                     <li class="menu-1 expanded dropdown">
                         <!-- <div class="icona"><img src="https://www.barcelona.cat/assetsdi/lameva/menu/img/fletxa_1.png"></div> -->
-                        <a href="/en/living-in-cfu" class="dropbtn">ΑΓΓΕΛΙΕΣ</a>
+                        <a href="ads.html" class="dropbtn">ΑΓΓΕΛΙΕΣ</a>
                         <div class="dropdown-content">
                             <p>Ανεβάστε τις δικές σας αγγελίες και μοιραστείτε τις ευκαιρίες, τις υπηρεσίες και τα προϊόντα σας με την κοινότητα!</p>
                         </div>
