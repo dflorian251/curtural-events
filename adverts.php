@@ -22,7 +22,7 @@ $result = $stmt->fetchAll();
         <link rel="stylesheet" href="css/header.css">
         <link rel="stylesheet" href="barcelona/menu.css">
 
-        <link rel="stylesheet" href="css/ads.css">
+        <link rel="stylesheet" href="css/adverts.css">
 
         <link rel="stylesheet" media="all" href="barcelona/css_rFRysy6MbVSEpojtuKXhCIczox98m6-B1zLbaxABV_E.css">
         <link rel="stylesheet" media="all" href="barcelona/css_F4e7z303Ny2ifV3z3tSupMhjmCvWXEmfg1ViqTzA3ZA.css">
@@ -96,28 +96,37 @@ $result = $stmt->fetchAll();
                 </ul>
             </div>
         </div>
-
-        <ul class="row adverts">
-            <?php foreach ($result as $row){ ?>
-            <li>
-                <article class="in-article-card article" id="mini-post-21059">
-                    <time datetime="2019-10-03" title="Originally published Apr 8, 2013">
-                        Oct 3, 2019  
-                    </time>
-                    <h3>
-                        <a href="https://css-tricks.com/adaptive-photo-layout-with-flexbox/" class="ad-title">
-                            <?php echo $row["advert_title"]?>
-                        </a>
-                    </h3>
-                    <div class="tags">
-                        <a href="https://css-tricks.com/tag/flexbox/" rel="tag" class="tag">flexbox</a>
-                        <a href="https://css-tricks.com/tag/layout/" rel="tag" class="tag">layout</a>    
-                    </div>
-                </article>
-            <?php }?>
-            </li>
-        </ul>
-
+        <div class="adverts-container">
+            <ul class="row adverts">
+                <?php foreach ($result as $row){ ?>
+                <li>
+                    <article class="in-article-card article" id="mini-post-21059">
+                        <time>
+                            <?php
+                            $databaseDate = DateTime::createFromFormat('Y-m-d', $row['registrationDate']);
+                            $start_date = $databaseDate->format('d/m/Y');
+                            echo str_replace('-','/',$start_date);
+                            ?>
+                        </time>
+                        <h3>
+                            <a href="ad.php?id=<?=$row['advert_id']?>" class="ad-title">
+                                <?php echo $row["advert_title"]?>
+                            </a>
+                        </h3>
+                        <div class="tags">
+                            <a href="#" rel="tag" class="tag">
+                                <?php 
+                                
+                                echo $row["tag_id"]
+                                ?>
+                            </a>
+                               
+                        </div>
+                    </article>
+                <?php }?>
+                </li>
+            </ul>
+        </div>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     </body>

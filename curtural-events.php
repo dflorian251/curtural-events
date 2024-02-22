@@ -82,7 +82,7 @@ $result = $stmt->fetchAll();
                     <!-- AGGELIES -->
                     <li class="menu-1 expanded dropdown">
                         <!-- <div class="icona"><img src="https://www.barcelona.cat/assetsdi/lameva/menu/img/fletxa_1.png"></div> -->
-                        <a href="ads.html" class="dropbtn">ΑΓΓΕΛΙΕΣ</a>
+                        <a href="adverts.php" class="dropbtn">ΑΓΓΕΛΙΕΣ</a>
                         <div class="dropdown-content">
                             <p>Ανεβάστε τις δικές σας αγγελίες και μοιραστείτε τις ευκαιρίες, τις υπηρεσίες και τα προϊόντα σας με την κοινότητα!</p>
                         </div>
@@ -139,7 +139,7 @@ $result = $stmt->fetchAll();
                                                             <img src="data:image/png;charset=utf8;base64,<?php echo base64_encode($row['image']); ?>"/>
                                                         </div>    
                                                         <div class="curtural-event-info">
-                                                            <a class="curtural-event-name" href="post.php?id=<?=$row['id']?>"><?php echo $row["title"];?></a>
+                                                            <a class="curtural-event-name" href="event.php?id=<?=$row['id']?>"><?php echo $row["title"];?></a>
                                                             <p class="curtural-event-excerpt"><strong><?php echo $row["keyword"]?>. </strong><?php echo $row['short_desc'] ?></p>
                                                             <ul>
                                                                 <li class="curtural-event-when"><span class="curtural-event-label">When:</span> <?php echo $row['start_date']?> - <?php echo $row['end_date'] ?></li>
