@@ -12,12 +12,12 @@ if (isset($_GET['id'])) {
     // FETCHING DATA FROM DATABASE 
     $result = $stmt->fetchAll(); 
 } 
-?>
-
+foreach ($result as $row){ ?>
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+
+        <title>Αγγελίες - <?php echo $row["advert_title"]?></title>
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -98,7 +98,7 @@ if (isset($_GET['id'])) {
                 </ul>
             </div>
         </div>
-        <?php foreach ($result as $row){ ?>
+
         <div class="ad-container">
             <article class="article ad">
                 <time class="ad-date"><?php echo $row["registrationDate"]?></time>
