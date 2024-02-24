@@ -18,7 +18,7 @@ html {
 	border: none;
     display: flex;
     align-items: center;
-	
+	background-color: white;
 }
 
 .header ul {

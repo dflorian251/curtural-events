@@ -5,22 +5,21 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/header.css">
         <link rel="stylesheet" href="../barcelona/menu.css">
 
-        <link rel="stylesheet" href="../nice-forms-css/dist/style.css">
-
         <link rel="stylesheet" media="all" href="../barcelona/css_rFRysy6MbVSEpojtuKXhCIczox98m6-B1zLbaxABV_E.css">
         <link rel="stylesheet" media="all" href="../barcelona/css_F4e7z303Ny2ifV3z3tSupMhjmCvWXEmfg1ViqTzA3ZA.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-
-
-        
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../css/advert_options_container.css">
         <script src="https://kit.fontawesome.com/c4f6644410.js" crossorigin="anonymous"></script>
 
-        <title>Αγγελίες</title>
+
+        <!-- <link rel="stylesheet" href="../nice-forms-css/dist/style.css"> -->
+
+        <title>Καταχώρηση Αγγελίας</title>
     </head>
 
     
@@ -87,58 +86,77 @@
             </div>
         </div>
 
-        <div class="ad-registration-form" style="width: 80%; height: 100vh; margin: auto;">
-            <div class="nice-form-group">
-                <label>Τίτλος αγγελίας</label>
-                <input
-                    type="text"
-                    placeholder="Title of the advertisement"
-                    value=""
-                    class="icon-left"
-                    required
-                />
+        <div id="menu-ciutat-cfu-v1" class="desktop amagat adverts-options-container" style="margin-bottom: 4rem;">
+            <div id="menu-ciutat-wrapper">
+                <ul class="clearfix level-0 adverts-options" style="width: 50%; margin: auto;">
+                    <li class="menu-1 expanded ">
+                        <a href="adverts_operations/register_ad.html">ΚΑΤΑΧΩΡΗΣΗ ΑΓΓΕΛΙΑΣ</a>
+                    </li>
+                    <li class="menu-1 expanded ">
+                        <a href="#">ΕΠΕΞΕΡΓΑΣΙΑ ΑΓΓΕΛΙΑΣ</a>
+                    </li>
+                    <li class="menu-1 expanded ">
+                        <a href="#">ΔΙΑΓΡΑΦΗ ΑΓΓΕΛΙΑΣ</a>
+                    </li>
+                </ul>
             </div>
-            <div class="nice-form-group">
-                <label>Email</label>
-                <input
-                    type="email"
-                    placeholder="Your email"
-                    value=""
-                    class="icon-left"
-                    required
-                />
-            </div>
-            <div class="nice-form-group">
-                <label>Τηλέφωνο Επικοινωνίας</label>
-                <input
-                    type="tel"
-                    placeholder="Your phone number"
-                    value=""
-                    class="icon-right"
-                    required
-                />
-            </div>
-            <div class="nice-form-group">
-                <label>Διατύπωση αγγελίας</label>
-                <textarea rows="5" placeholder="Ad description" required></textarea>
-            </div>
-            <div class="nice-form-group">
-                <label>Κατηγορία</label>
-                <select required>
-                    <option>Please select a value</option>
-                    <option>Option 1</option>
-                    <option>Option 2</option>
-                </select>
-            </div>
-            
-            <div class="nice-form-group">
-                <label>Προσθήκη Φωτογραφίας</label>
-                <input type="file" />
-            </div>
-            
-            <input type="submit" value="Καταχώρηση Αγγελίας">
         </div>
-        
-        
+
+        <form>
+            <section style="width: 60%; margin: auto;" class="nice-form">
+                <h1>
+                    Καταχώρηση Αγγελίας
+                </h1>
+                <div class="nice-form-group">
+                    <label>Τίτλος αγγελίας</label>
+                    <input
+                        type="text"
+                        placeholder=""
+                        value=""
+                        class="icon-left"
+                        required
+                    />
+                </div>
+                <div class="nice-form-group">
+                    <label>Email</label>
+                    <input
+                        type="email"
+                        placeholder="Προσωπικό email"
+                        value=""
+                        class="icon-left"
+                        required
+                    />
+                </div>
+                <div class="nice-form-group">
+                    <label>Τηλέφωνο Επικοινωνίας</label>
+                    <input
+                        type="tel"
+                        placeholder=""
+                        value=""
+                        class="icon-left"
+                        required
+                    />
+                </div>
+                <div class="nice-form-group">
+                    <label>Διατύπωση αγγελίας</label>
+                    <textarea rows="5" placeholder="Περιγραφή αγγελίας" required></textarea>
+                </div>
+                <div class="nice-form-group">
+                    <label>Κατηγορία</label>
+                    <select required>
+                        <option>Please select a value</option>
+                        <option>Option 1</option>
+                        <option>Option 2</option>
+                    </select>
+                </div>
+                
+                
+                <div class="nice-form-group">
+                    <label>Προσθήκη Φωτογραφίας</label>
+                    <input type="file" />
+                </div>
+                <input type="submit" value="Καταχώρηση Αγγελίας" class="submit-btn">
+            </section>
+        </form>
     </body>
 </html>
