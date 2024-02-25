@@ -27,6 +27,9 @@ $result = $stmt->fetchAll();
         <link rel="stylesheet" media="all" href="barcelona/css_rFRysy6MbVSEpojtuKXhCIczox98m6-B1zLbaxABV_E.css">
         <link rel="stylesheet" media="all" href="barcelona/css_F4e7z303Ny2ifV3z3tSupMhjmCvWXEmfg1ViqTzA3ZA.css">
 
+
+        <link rel="stylesheet" href="css/advert_options_container.css">
+
         
         <script src="https://kit.fontawesome.com/c4f6644410.js" crossorigin="anonymous"></script>
 
@@ -114,11 +117,12 @@ $result = $stmt->fetchAll();
         </div>
 
 
-        <div class="adverts-container">
+        <div class="container adverts-events-portal adverts-events-portal-bloc-3 adverts-container">
+            <h2>Αγγελίες</h2>
             <ul class="row adverts">
                 <?php foreach ($result as $row){ ?>
-                <li>
-                    <article class="in-article-card article" id="mini-post-21059">
+                <li class="advert">
+                    <article class="in-article-card" id="mini-post-21059">
                         <time>
                             <?php
                             $databaseDate = DateTime::createFromFormat('Y-m-d', $row['registrationDate']);
