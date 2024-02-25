@@ -57,11 +57,6 @@ foreach ($result as $row){ ?>
         <div id="menu-ciutat-cfu-v1" class="desktop amagat" style="margin-bottom: 4rem;">
             <div id="menu-ciutat-wrapper">
                 <ul data-region="menu" class="clearfix level-0">
-                    <li class="menu-0">
-                        <a href="/en#hola-en"><img width="22" height="22" src="https://www.barcelona.cat/assetsdi/lameva/menu/img/ico00.png"></a>
-                        <div>
-                        </div>
-                    </li>
                     <!-- AGGELIES -->
                     <li class="menu-1 expanded dropdown">
                         <!-- <div class="icona"><img src="https://www.barcelona.cat/assetsdi/lameva/menu/img/fletxa_1.png"></div> -->
