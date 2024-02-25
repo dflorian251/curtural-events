@@ -1265,7 +1265,7 @@
   #block-ux_custom-header #menu-ciutat-cfu-v1 .level-0 li.menu-3 > a:before,
   #block-ux_custom-header #menu-ciutat-cfu-v1 .level-0 li.menu-4 > a:before,
   #block-ux_custom-header #menu-ciutat-cfu-v1 .level-0 li.menu-6 > a:before {
-    content: '\e999';
+    /* content: '\e999'; */
     font-family: 'icoajuntament' !important;
     speak: none;
     color: #000;
@@ -1384,6 +1384,7 @@
   #menu-ciutat-cfu-v1.amagat ul.level-0 a {
     border-bottom: 0px solid #fff!important;
     margin-right: 0px!important;
+    text-transform: uppercase;
   }
   #menu-ciutat-cfu-v1 ul.level-0 .active-trail.menu-0 a,
   #menu-ciutat-cfu-v1 ul.level-0 .active-trail.menu-1 a,
@@ -1947,3 +1948,67 @@
 .dropdown:hover .dropdown-content {display: flex; flex-direction: column; height: auto;}
 
 
+@media (max-width: 378px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #menu-ciutat-cfu-v1 .level-0 {
+    flex-direction: column;
+  }
+
+  #menu-ciutat-wrapper > ul {
+    height: fit-content;
+  }
+
+  #menu-ciutat-cfu-v1 .level-0 li a  {
+    padding: 10px !important;
+    text-transform: uppercase;
+  }
+  
+  #menu-ciutat-cfu-v1 ul.level-0 li a {
+    border-left: 0;
+  }
+
+  #menu-ciutat-cfu-v1 .level-0 .menu-1 {
+    border-left: 5px solid #ff4949;
+  } 
+
+  #menu-ciutat-cfu-v1 .level-0 .menu-2 {
+    border-left: 5px solid #efb149;
+  }
+
+  #menu-ciutat-cfu-v1 .level-0 .menu-3 {
+    border-left: 5px solid #a4c376;
+  } 
+
+  #menu-ciutat-cfu-v1 .level-0 .menu-4 {
+    border-left: 5px solid #70b8af;
+  }
+
+  #menu-ciutat-cfu-v1 .level-0 .menu-5 {
+    border-left: 5px solid #483888;
+  }
+
+  #menu-ciutat-cfu-v1 .level-0 li:last-child {
+    padding-bottom: 0 !important;
+  }
+
+
+  #menu-ciutat-cfu-v1 .dropdown-content p {
+    padding: 10px;
+    padding-bottom: 0;
+    border-bottom: none;
+    font-size: 1rem;
+    text-align: left;
+    color: #696973;
+  }
+
+  .dropdown .dropdown-content {display: flex; flex-direction: column; height: auto;}
+
+}
+
+@media (max-width: 767px) {
+
+}
