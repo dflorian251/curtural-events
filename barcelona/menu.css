@@ -1529,9 +1529,9 @@
   #menu-ciutat-cfu-v1 ul.level-0 li.open .wrapper-second ul li.first a.active-trail {
     color: #000 !important;
   }
-  #menu-ciutat-cfu-v1 .level-0 li:last-child {
+  /* #menu-ciutat-cfu-v1 .level-0 li:last-child {
     padding-bottom: 15vh !important;
-  }
+  } */
   #menu-ciutat-cfu-v1 #enllacos-ajuntament-meet,
   #menu-ciutat-cfu-v1 #menu-items-xxss {
     display: block;
@@ -1947,68 +1947,114 @@
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: flex; flex-direction: column; height: auto;}
 
+/* Hides elements by default */
+.header > ul > .menu-btn,
+.header > ul > #menu-check,
+.header > ul > #menu-ciutat-cfu-v1 {
+  display: none;
+}
 
-@media (max-width: 378px) {
+/* Media query for screens with a maximum width of 378px */
+@media (max-width: 500px) {
   body {
     display: flex;
     flex-direction: column;
   }
 
-  #menu-ciutat-cfu-v1 .level-0 {
-    flex-direction: column;
+  /* Show the hamburger menu button */
+  .header > ul > .menu-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
   }
 
-  #menu-ciutat-wrapper > ul {
+  /* Styling for the hamburger menu icon */
+  .header > ul > .menu-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+    cursor: pointer;
+  }
+
+  /* Styling for the hamburger menu icon spans */
+  .header > ul > .menu-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 5px;
+  }
+
+  /* Display the menu when the checkbox is checked */
+  .header > ul > #menu-check:checked ~ #menu-ciutat-cfu-v1 {
+    display: block;
+  }
+
+  .header ul #menu-ciutat-cfu-v1 #menu-ciutat-wrapper .level-0 {
     height: fit-content;
-  }
-
-  #menu-ciutat-cfu-v1 .level-0 li a  {
-    padding: 10px !important;
-    text-transform: uppercase;
-  }
-  
-  #menu-ciutat-cfu-v1 ul.level-0 li a {
-    border-left: 0;
-  }
-
-  #menu-ciutat-cfu-v1 .level-0 .menu-1 {
-    border-left: 5px solid #ff4949;
-  } 
-
-  #menu-ciutat-cfu-v1 .level-0 .menu-2 {
-    border-left: 5px solid #efb149;
-  }
-
-  #menu-ciutat-cfu-v1 .level-0 .menu-3 {
-    border-left: 5px solid #a4c376;
-  } 
-
-  #menu-ciutat-cfu-v1 .level-0 .menu-4 {
-    border-left: 5px solid #70b8af;
-  }
-
-  #menu-ciutat-cfu-v1 .level-0 .menu-5 {
-    border-left: 5px solid #483888;
-  }
-
-  #menu-ciutat-cfu-v1 .level-0 li:last-child {
-    padding-bottom: 0 !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
   }
 
 
-  #menu-ciutat-cfu-v1 .dropdown-content p {
-    padding: 10px;
-    padding-bottom: 0;
-    border-bottom: none;
-    font-size: 1rem;
+  .header ul #menu-ciutat-cfu-v1 #menu-ciutat-wrapper .level-0 li .dropdown-content,
+  .header ul #menu-ciutat-cfu-v1 #menu-ciutat-wrapper .level-0 li .dropdown-content p {
+    display: block;
+    color: #696973;
     text-align: left;
+    border: none;
+  }
+
+  
+
+  /* Restyle the menu dropdown */
+  #menu-ciutat-cfu-v1 {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    overflow-y: hidden;
+    transition: height 0.3s ease-in;
+    height: 0;
+  }
+
+  /* Adjust the height of the menu dropdown when checked */
+  #menu-check:checked ~ #menu-ciutat-cfu-v1 {
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  #menu-check:checked ~ #menu-ciutat-cfu-v1 .level-0 li { 
+    overflow-y: auto;
+    flex: 0 0 auto;
+  }
+
+  /* Adjust the styles for the menu links */
+  #menu-ciutat-cfu-v1 .level-0 li a {
+    display: block;
+    padding: 10px;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    border: none !important;
+  }
+
+
+  /* Add border colors to menu items */
+  #menu-ciutat-cfu-v1 .level-0 .menu-1 { border-left: 5px solid #ff4949; }
+  #menu-ciutat-cfu-v1 .level-0 .menu-2 { border-left: 5px solid #efb149; }
+  #menu-ciutat-cfu-v1 .level-0 .menu-3 { border-left: 5px solid #a4c376; }
+  #menu-ciutat-cfu-v1 .level-0 .menu-4 { border-left: 5px solid #70b8af; }
+  #menu-ciutat-cfu-v1 .level-0 .menu-5 { border-left: 5px solid #483888; }
+
+  /* Adjust padding and spacing for dropdown content */
+  .dropdown-content p {
+    padding: 10px;
+    margin: 0;
     color: #696973;
   }
-
-  .dropdown .dropdown-content {display: flex; flex-direction: column; height: auto;}
-
-}
-
-@media (max-width: 767px) {
-
 }
