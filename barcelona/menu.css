@@ -1961,6 +1961,10 @@
     flex-direction: column;
   }
 
+  body #menu-ciutat-cfu-v1 {
+    display: none;
+  }
+
   /* Show the hamburger menu button */
   .header > ul > .menu-btn {
     display: inline-block;
@@ -1987,11 +1991,6 @@
     margin-bottom: 5px;
   }
 
-  /* Display the menu when the checkbox is checked */
-  .header > ul > #menu-check:checked ~ #menu-ciutat-cfu-v1 {
-    display: block;
-  }
-
   .header ul #menu-ciutat-cfu-v1 #menu-ciutat-wrapper .level-0 {
     height: fit-content;
     display: flex;
@@ -2010,31 +2009,41 @@
 
   
 
+  #menu-check:not(:checked) ~ .header ul #menu-ciutat-cfu-v1 {
+    height: 0;
+  }
+
+  /* Display the menu when the checkbox is checked */
+  .header ul #menu-check:checked ~ .header ul #menu-ciutat-cfu-v1 {
+    display: block ;
+  }
+  
+  /* Adjust the height of the menu dropdown when checked */
+  #menu-check:checked ~ .header ul #menu-ciutat-cfu-v1 {
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  #menu-check:checked ~ .header ul #menu-ciutat-cfu-v1 .level-0 li { 
+    overflow-y: auto;
+    flex: 0 0 auto;
+  }
+
   /* Restyle the menu dropdown */
-  #menu-ciutat-cfu-v1 {
+  .header ul #menu-ciutat-cfu-v1 {
     position: absolute;
     top: 50px;
     left: 0;
     width: 100%;
     background-color: #333;
     overflow-y: hidden;
-    transition: height 0.3s ease-in;
-    height: 0;
+    height: 0px;
+    transition: height 1s ease-in;
   }
-
-  /* Adjust the height of the menu dropdown when checked */
-  #menu-check:checked ~ #menu-ciutat-cfu-v1 {
-    height: 100vh;
-    overflow-y: auto;
-  }
-
-  #menu-check:checked ~ #menu-ciutat-cfu-v1 .level-0 li { 
-    overflow-y: auto;
-    flex: 0 0 auto;
-  }
+  
 
   /* Adjust the styles for the menu links */
-  #menu-ciutat-cfu-v1 .level-0 li a {
+  .header ul #menu-ciutat-cfu-v1 .level-0 li a {
     display: block;
     padding: 10px;
     text-transform: uppercase;

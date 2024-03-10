@@ -1,0 +1,88 @@
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+}
+
+.header-menu-container {
+    display: none;
+}
+
+.header-menu-container ul {
+    height: 100vh;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-menu-container ul li .dropdown-content {
+    display: block;
+}
+
+.header #menu-check,
+.header .menu-btn {
+    display: none;
+}
+
+.header ul{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.header > ul > li {
+    flex: 1;
+}
+
+li.language_container {
+    text-align: center;
+}
+
+@media (max-width:600px) {
+
+    .header {
+        height: 5rem;
+        display: block;
+    }
+
+    /* We don't need any more the dummy item */
+    .header .dummy-list-item {
+        display: none;
+    }
+
+    /* We need the menu button */
+    .header .menu-btn {
+        display: flex;
+        justify-content: end;
+        z-index: 1000;
+        cursor: pointer;
+    }
+
+    /* Align the hamburger inside the div */
+    .header ul .menu-btn label{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        padding: 13px;
+        padding-top: 0;
+    }
+
+    .header .menu-btn label > span {
+        display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid black;
+    }
+
+    .header-menu-container {
+        display: none;
+        
+    }
+
+}

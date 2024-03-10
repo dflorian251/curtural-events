@@ -1,0 +1,119 @@
+a {
+    text-decoration: none;
+}
+
+.menu-container {
+    width: 70%;
+    margin: auto;
+}
+
+.menu-container ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-container ul li {
+    flex: 1;
+    text-align: center;
+}
+
+.menu-container ul li a {
+    display: block;
+    padding-bottom: 1rem;
+}
+
+/* Menu colors */
+li.menu-1 a{
+    color: #ff4949;
+    border-bottom: 5px solid #ff4949;
+}
+
+li.menu-2 a{
+    color: #efb149;
+    border-bottom: 5px solid #efb149;
+}
+
+li.menu-3 a{
+    color: #a4c376;
+    border-bottom: 5px solid #a4c376;
+}
+
+li.menu-4 a{
+    color: #70b8af;
+    border-bottom: 5px solid #70b8af;
+}
+
+li.menu-5 a{
+    color: #948dbc;
+    border-bottom: 5px solid #948dbc;
+}
+
+.menu-container ul li .dropdown-content {
+    display: none;
+}
+
+.dropdown a {
+    text-transform: uppercase;
+}
+
+.menu-container > ul > li:hover ~ .menu-container ul li .dropdown-content {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+/* Links inside the dropdown */
+.dropdown-content p {
+    margin: 0;
+    padding: 5px 2px;
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+/* Bottom colors of each menu option */
+.menu-1 .dropdown-content p{
+    border-bottom: 5px solid #ff4949;
+}
+
+.menu-2 .dropdown-content p{
+    border-bottom: 5px solid #efb149;
+}
+
+.menu-3 .dropdown-content p{
+    border-bottom: 5px solid #a4c376;
+}
+
+.menu-4 .dropdown-content p{
+    border-bottom: 5px solid #70b8af;
+}
+
+.menu-5 .dropdown-content p{
+    border-bottom: 5px solid #948dbc;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: flex; flex-direction: column; height: auto;}
+
+
+
+@media (max-width:600px) {
+    /* Make the previous menu disappear*/
+    #largeMenu {
+        display: none;
+    }
+
+}
